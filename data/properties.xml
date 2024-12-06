@@ -1,0 +1,3349 @@
+<root><kyero><feed_version>3</feed_version></kyero><property>
+  <id>2772</id>
+  <date>2024-06-27 12:09:39</date>
+  <ref>GDA003</ref>
+  <price>129900</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>80</built>
+   <plot>70</plot>
+  </surface_area>
+  <desc>
+   <es>&#160;Se vende apartamento situado en la zona de Plaza Porticada.
+La vivienda se encuentra en primera planta&#160; de un edificio de cuatro plantas&#160;
+que cuenta con ascensor y rampa de acceso en el portal. El apartamento
+dispone de dos dormitorios y dos ba&#241;os,uno de cuales es ba&#241;o privado de dormitorio principal y&#160;
+uno de ellos de los ba&#241;os equipado con una cabina de ducha.
+La cocina es de estilo americano, integrada en el sal&#243;n-comedor, lo que crea un espacio amplio y luminoso.
+Desde el sal&#243;n se accede a una hermosa terraza con vistas despejadas a la Plaza Porticada
+, ideal para disfrutar del entorno. Adem&#225;s, la propiedad cuenta con un patio adicional,
+de uso privado, perfecto para el secado de ropa. La orientaci&#243;n de la vivienda es norte,
+lo que garantiza una temperatura agradable durante todo el a&#241;o. La ubicaci&#243;n es excelente
+, a tan solo 5 minutos a pie de todos los servicios esenciales y a 150 metros de una magn&#237;fica playa.
+El edificio est&#225; construido con materiales de alta calidad y ofrece una terraza comunitaria en la azotea,
+ideal para uso com&#250;n y perfecta para tender la ropa y asegurar un secado r&#225;pido.
+Esta propiedad es una excelente opci&#243;n para quienes buscan una vivienda c&#243;moda y bien ubicada,
+cerca del mar y con todos los servicios a mano.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Refrigerator</feature>
+   <feature>Washer</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044366752ce887ebc.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044766752ceb88664.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044266752ce7de3cc.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044566752ce9390d1.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044166752ce58b584.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043166752cddd1ed1.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043266752cde91e8f.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043366769d9a546c1.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043466752ce113385.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043566752cdf60bb6.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043866752ce1c48fb.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043766752ce26f7c2.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043666752ce33a5fd.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_043966752ce4d8270.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044066752ce63b4d4.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044466752ceac7485.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_050166769d997f9bd.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_044866752cdd100c2.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Recomendado, Popular - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2771</id>
+  <date>2024-06-27 12:09:16</date>
+  <ref>GDA002</ref>
+  <price>130000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>90</built>
+   <plot>80</plot>
+  </surface_area>
+  <desc>
+   <es>&#160;
+&#160;
+Descripci&#243;n del apartamento:
+Esta hermosa y espaciosa vivienda se encuentra en una ubicaci&#243;n privilegiada, cerca de todos los servicios esenciales. A tan solo 5 minutos a pie, podr&#225;s encontrar bares, restaurantes, tiendas y una escuela, lo que la convierte en una opci&#243;n ideal para aquellos que valoran la comodidad y la accesibilidad.
+Caracter&#237;sticas del apartamento:
+Dormitorios: El apartamento cuenta con 3 amplios dormitorios, ofreciendo espacio suficiente para toda la familia o para acomodar a los invitados.
+Ba&#241;os: Dispone de 2 ba&#241;os completos, ambos con ventanas que facilitan una mejor ventilaci&#243;n y garantizan un ambiente fresco y saludable en todo momento.
+Cocina independiente: La cocina es totalmente independiente y est&#225; equipada con todos los electrodom&#233;sticos necesarios, proporcionando un espacio c&#243;modo y eficiente para preparar tus comidas diarias.
+Sal&#243;n-comedor: El sal&#243;n-comedor es amplio y luminoso, perfecto para reuniones familiares o para disfrutar de momentos de relajaci&#243;n. La distribuci&#243;n abierta permite una transici&#243;n fluida entre los espacios, creando un ambiente acogedor y agradable.
+Terraza: La vivienda cuenta con una terraza con impresionantes vistas al mar, ideal para disfrutar de las vistas y del aire fresco del Mediterr&#225;neo.
+Ubicaci&#243;n en el edificio: El apartamento est&#225; situado en la tercera planta de un edificio que cuenta con ascensor, lo que facilita el acceso a todas las personas, incluyendo aquellas con movilidad reducida.
+Accesibilidad: El edificio est&#225; equipado con un ascensor y cuenta con un rampa de acceso, asegurando que sea accesible para personas de todas las edades y capacidades.
+IBI 255 euros al a&#241;o,comunidad 322 euros al a&#241;o .
+Esta vivienda es perfecta para aquellos que buscan un hogar c&#243;modo y bien ubicado, con todas las facilidades necesarias a su alcance.
+No dudes en contactarnos para obtener m&#225;s informaci&#243;n o para programar una visita. &#161;Te esperamos!
+&#160;</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04256674874cb007d.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_042966748744db2c9.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_042166748745a9585.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_042766748749aabef.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04266674874a70419.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0424667487466dd75.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_041966748750893f6.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_042366748748df38d.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0428667487480fade.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04206674874fd04c0.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04186674874e46114.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04176674874d73f57.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04306674874bea8b1.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Recomendado, Popular - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2770</id>
+  <date>2024-06-21 08:13:04</date>
+  <ref>GDA0001</ref>
+  <price>135000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>90</built>
+   <plot>80</plot>
+  </surface_area>
+  <desc>
+   <es>&#160;
+&#160;
+Estupendo y muy c&#243;modo apartamento en la zona de Mercadona, cerca de todos los servicios, accesibles a pie en tan solo 5 minutos.
+Este apartamento destaca por su comodidad y excelente ubicaci&#243;n en una de las &#225;reas m&#225;s demandadas y convenientes de la ciudad. A continuaci&#243;n, se describen las caracter&#237;sticas detalladas de la propiedad:
+Distribuci&#243;n y espacios interiores:
+Recibidor: Al ingresar a la vivienda, se encuentra un espacioso recibidor que brinda una c&#225;lida bienvenida y ofrece un espacio adecuado para recibir a los invitados.
+Cocina americana: La cocina de concepto abierto est&#225; completamente equipada con todos los electrodom&#233;sticos y utensilios necesarios, facilitando la preparaci&#243;n de comidas de manera eficiente y c&#243;moda. Su dise&#241;o integrado permite una transici&#243;n fluida hacia el sal&#243;n-comedor, creando un espacio ideal para la vida diaria y el entretenimiento.
+Sal&#243;n-comedor: La gran sala de estar y comedor es un lugar luminoso y acogedor, perfecto para reuniones familiares o con amigos. El espacio est&#225; ba&#241;ado por la luz natural, lo que contribuye a una atm&#243;sfera relajante y agradable.
+Terraza amplia y soleada: La terraza, con una superficie generosa, ofrece vistas abiertas y es el lugar ideal para disfrutar del aire libre. Es perfecta para tomar el sol, relajarse con un libro o compartir una comida al aire libre.
+Habitaciones y ba&#241;os:
+Dormitorios: El apartamento cuenta con dos amplios dormitorios, cada uno equipado con armarios empotrados que proporcionan amplio espacio de almacenamiento. Los dormitorios est&#225;n dise&#241;ados para ofrecer un ambiente tranquilo y confortable, con suficiente luz natural que garantiza una atm&#243;sfera agradable y acogedora.
+Ba&#241;os: La propiedad dispone de dos ba&#241;os completos, uno de los cuales es en suite, ofreciendo privacidad y comodidad adicional. Ambos ba&#241;os est&#225;n completamente equipados y dise&#241;ados para ofrecer el m&#225;ximo confort y funcionalidad.
+Trastero: Se incluye un peque&#241;o trastero dentro del apartamento, ideal para almacenar objetos &#250;tiles del hogar y mantener el espacio ordenado y organizado.
+Caracter&#237;sticas adicionales y ubicaci&#243;n:
+Ubicaci&#243;n en el edificio: La vivienda est&#225; situada en la tercera planta de un edificio que cuenta con ascensor, facilitando el acceso a todos los pisos y asegurando comodidad para todos los residentes, especialmente aquellos con movilidad reducida.
+Orientaci&#243;n oeste: La orientaci&#243;n oeste del apartamento garantiza una excelente iluminaci&#243;n natural durante la tarde, lo que contribuye a crear un ambiente c&#225;lido y acogedor en el hogar.
+Plaza de garaje y trastero: El apartamento incluye una plaza de garaje y un trastero adicional situados en el s&#243;tano del mismo edificio, ambos incluidos en el precio, lo que a&#241;ade comodidad y valor a la propiedad.
+Proximidad a la playa: La magn&#237;fica playa de Guardamar se encuentra a unos 400 metros andando, permitiendo disfrutar de la costa y del mar en pocos minutos.
+Este apartamento es ideal para aquellos que buscan una residencia c&#243;moda y bien ubicada, con todas las facilidades necesarias para una vida confortable y sin preocupaciones. No dude en contactarnos para obtener m&#225;s informaci&#243;n o para organizar una visita.
+&#160;
+&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Dishwasher</feature>
+   <feature>Refrigerator</feature>
+   <feature>Microwave</feature>
+   <feature>Freezer</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_046766747d4807f62.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048666747d5912719.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047566747d519218c.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047366747d4ab6ddd.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047466747d50643c9.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_046866747d4191fdc.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_046966747d4412987.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047066747d4633c7d.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047666747d4959083.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047866747d4bd05b0.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0480_1_66747d4e26dfd.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047966747d4f29cf8.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048266747d569905d.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048366747d55128a7.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048566747d575bedf.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048166747d55c912b.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_047766747d4d0d1dd.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048766747d59dd902.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_048866747d5aacfc0.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Popular, garaje, apartamentos - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2769</id>
+  <date>2024-06-21 08:13:33</date>
+  <ref>GDP0001</ref>
+  <price>175000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>93</built>
+   <plot>73</plot>
+  </surface_area>
+  <desc>
+   <es>&#160;
+&#160;
+Encantador Apartamento en Venta en Guardamar del Segura - Ubicaci&#243;n Privilegiada en Sup 7
+Ubicado en la codiciada zona de Sup 7 en Guardamar del Segura, este encantador apartamento ofrece una experiencia de vida excepcional con su ubicaci&#243;n estrat&#233;gica y modernas comodidades. Situado en el segundo piso de una propiedad en esquina, el apartamento goza de una excelente proximidad al supermercado MasyMas, lo que hace que las comodidades diarias est&#233;n a solo un corto paseo.
+Detalles de la Propiedad:-Ubicaci&#243;n: Guardamar del Segura, Sup 7, cerca del supermercado MasyMas.- Piso: 2&#186; piso con f&#225;cil acceso a trav&#233;s de ascensor.- Orientaci&#243;n: Sureste, asegurando abundante luz natural y hermosas vistas al amanecer.
+Caracter&#237;sticas Interiores:- Dormitorios: Tres amplios dormitorios, cada uno equipado con armarios empotrados que proporcionan un amplio espacio de almacenamiento.- Ba&#241;os: Dos ba&#241;os bien equipados; uno con ducha y el otro con una relajante ba&#241;era.- Sal&#243;n-Comedor: Un gran sal&#243;n-comedor, perfecto para reuniones familiares y para recibir invitados.- Cocina: Una cocina moderna y totalmente equipada con todos los electrodom&#233;sticos necesarios, lista para su uso inmediato.- Terraza: Una terraza acristalada de generoso tama&#241;o orientada al sureste, que ofrece hermosas vistas y un espacio ideal para disfrutar de comidas o relajarse al sol.
+Mejoras Recientes:- Seguridad: La propiedad cuenta con una puerta blindada, mejorando la seguridad.- Ventanas: Ventanas recientemente renovadas en todo el apartamento, mejorando el aislamiento y la comodidad.
+Comodidades y Extras:- Amueblamiento: El apartamento se vende completamente amueblado, incluyendo todos los electrodom&#233;sticos necesarios, lo que lo hace listo para entrar a vivir.- Caracter&#237;sticas Comunitarias: La urbanizaci&#243;n cuenta con una variedad de comodidades compartidas, incluyendo una piscina comunitaria, una pista de p&#225;del, una cancha de petanca y un &#225;rea de juegos dedicada para ni&#241;os. Tambi&#233;n hay una zona de aparcamiento conveniente para bicicletas, fomentando un estilo de vida activo.- Aparcamiento y Accesibilidad: - Aparcamiento: La propiedad incluye una plaza de aparcamiento privada, asegurando un estacionamiento seguro y sin complicaciones. - Accesibilidad: La posici&#243;n en esquina del apartamento y el ascensor del edificio proporcionan un f&#225;cil acceso y mayor privacidad.
+Aspectos Destacados Adicionales:- Vida Comunitaria: Disfruta del ambiente vibrante de la comunidad con instalaciones compartidas que atienden tanto al relax como a la recreaci&#243;n.- Listo para Mudarse: Con su completo amueblamiento y electrodom&#233;sticos, el apartamento es perfecto para su ocupaci&#243;n inmediata, ya sea para uso personal o inversi&#243;n de alquiler.- deal para Familias e Inversores: Este apartamento en Guardamar del Segura ofrece una oportunidad excepcional tanto para familias que buscan un hogar c&#243;modo y bien ubicado como para inversores que buscan una propiedad con excelente potencial de alquiler en una zona pr&#243;spera. La proximidad a servicios esenciales, combinada con las lujosas caracter&#237;sticas comunitarias, lo convierte en una elecci&#243;n altamente deseable.
+No pierdas la oportunidad de ser due&#241;o de un hermoso apartamento en una de las ubicaciones m&#225;s convenientes y vibrantes de Guardamar del Segura.
+Si necesitas m&#225;s ayuda o tienes alguna pregunta, no dudes en contactarme.
+IBI:180 al a&#241;o ,comunidad 440 euros al a&#241;o&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Tennis Court</feature>
+   <feature>Swimming Pool</feature>
+   <feature>Garage</feature>
+   <feature>Dishwasher</feature>
+   <feature>Washer/Dryer</feature>
+   <feature>Cable Internet</feature>
+   <feature>Refrigerator</feature>
+   <feature>Electric Hot Water</feature>
+   <feature>Washer</feature>
+   <feature>Grill Top</feature>
+   <feature>Freezer</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03676671d462090fb.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03706671d469c9257.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03686671d56958047.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03846671d55d20c5e.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03766671d4634b3c7.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03756671d46589877.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03816671d564bd6fa.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03726671d468da0f6.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03736671d467de244.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03956671d46b0a882.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03776671d55f53d0c.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03786671d5614212c.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03876671d563e390c.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03926671d79f9fa46.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03796671d565ae1d6.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03886671d7a25acd9.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03946671d46d4eb5f.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03966671d46fd345a.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03906671d7a12b80b.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03916671d79e70636.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03896671d7a383417.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03836671d562536df.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0395_1_6671da5fcc3b6.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_03986671d46c50b67.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04016671d470b6f9c.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0397_1_6671d471e3ccf.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04086671d5e61ca2e.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04106671d5e758deb.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04076671d5e8b431a.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04056671d5ed2a471.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_04066671d5ea9cc34.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, garaje, Popular - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2768</id>
+  <date>2024-06-26 17:38:05</date>
+  <ref>GD0211</ref>
+  <price>115000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>1</baths>
+  <surface_area>
+   <built>80</built>
+  </surface_area>
+  <desc>
+   <es>&#160;
+&#160;
+
+
+
+
+Ubicaci&#243;n y Acceso
+Esta vivienda est&#225; situada en la tercera planta de un edificio que cuenta con acceso por medio de una rampa y un par de escalones en el portal, facilitando as&#237; el acceso para todos.
+Distribuci&#243;n y Espacios
+
+Superficie Total: 80 m&#178;.
+Orientaci&#243;n: Oeste, garantizando una buena entrada de luz natural durante la tarde.
+
+Habitaciones y Espacios Interiores
+
+Dormitorios: La vivienda dispone de dos dormitorios amplios, ambos equipados con armarios empotrados, ofreciendo amplio espacio de almacenamiento.
+Ba&#241;o: El ba&#241;o ha sido reformado y cuenta con un armario hecho a medida, especialmente dise&#241;ado para almacenar toallas y accesorios de ba&#241;o, optimizando as&#237; el espacio.
+Sal&#243;n Comedor: El sal&#243;n comedor es amplio, proporcionando un espacio ideal para el descanso y las actividades familiares.
+Cocina: La cocina es independiente y est&#225; completamente equipada con todo lo necesario para las actividades diarias.
+Galer&#237;a: Incluye un lavavajillas y un lavadero, as&#237; como otros elementos necesarios para la cocina y la vivienda en general.
+
+Espacios Adicionales
+
+Terraza: La vivienda cuenta con una gran terraza soleada que se encuentra orientada al oeste. Esta terraza incluye un armario empotrado, proporcionando un lugar pr&#225;ctico para almacenar art&#237;culos necesarios.
+Recibidor: Al entrar en la vivienda, te recibe un espacioso recibidor, a&#241;adiendo un toque de elegancia y funcionalidad al espacio.
+
+Estacionamiento
+
+Plaza de Garaje: La vivienda incluye una plaza de garaje por el precio 11000 euros ,situada en el s&#243;tano del edificio enfrente , asegurando un lugar c&#243;modo y seguro para estacionar.
+
+
+Esta vivienda combina comodidad y funcionalidad con una distribuci&#243;n bien pensada, ideal para aquellos que buscan un hogar pr&#225;ctico y bien ubicado.&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;Extras:
+
+
+
+
+
+Confort: Aire acondicionado en el sal&#243;n y ventiladores,toldos en la terraza y en dormitorio principal .
+Vistas: Terraza con vistas abiertas, ideal para relajarse y disfrutar del paisaje.
+Plaza de garaje .
+Acsensor
+
+IBI VIVIENDA 155,23 EUROS AL A&#209;O
+IBI GARAJE 30,76 EUROS AL A&#209;O&#160;
+COMUNIDAD GARAJE Y VIVIENDA 45O EUROS AL A&#209;O&#160;
+Este apartamento es la elecci&#243;n perfecta para aquellos que buscan una estancia confortable y relajante .
+&#161;No pierdas la oportunidad de disfrutar de este hermoso piso con todas las comodidades y una ubicaci&#243;n privilegiada cerca de todo necesario !
+&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Dishwasher</feature>
+   <feature>Refrigerator</feature>
+   <feature>Microwave</feature>
+   <feature>Washer</feature>
+   <feature>Freezer</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_310366633f5f3c96d.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0299666b0ea2e45e0.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0284666b0e8e73983.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0283666b0e914ddd4.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0285_1_666b0e8d3e9cc.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0286_2_666b0e8bdf6b6.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0287_1_666b0e8aaedc7.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0291666b0e9d2aceb.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0307666b0e954a2c4.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0289666b0e9672054.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0288666b0e9868b7e.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0290666b0e999adcd.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0303666b0e9ad4f16.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0293666b0e9e5c0bd.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0297666b0ea423dec.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0298666b0ea662298.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0294666b0e9f85a83.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0296666b0ea1bc2f9.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0295666b0ea0b769c.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_313066633f785ded9.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0300666b0ea53ff42.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_313766633f7f6d0da.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0310666b0e9bded70.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_313466633f7cb8c9c.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_313666633f7ebcf1e.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_313566633f7d54a15.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Recomendado, apartamentos, garaje - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2767</id>
+  <date>2024-06-26 14:35:33</date>
+  <ref>GDalq0001</ref>
+  <price>600</price>
+  <currency>EUR</currency>
+  <price_freq>month</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>95</built>
+   <plot>85</plot>
+  </surface_area>
+  <desc>
+   <es>Atractivo piso con vista al mar para alquiler de invierno de SEPTIEMBRE DE 2024 HASTA JUNIO DE 2025 . &#161;Orientaci&#243;n sur!
+&#160;
+Atractivo atico -duplex&#160; cerca&#160; de la playa en zona muy comoda para vivir&#160; &#160;alquiler de invierno.&#160;
+Disfruta de la tranquilidad y belleza de la Costa Blanca en este luminoso y soleado apartamento ubicado cerca de avenida Cervantes , a solo 100 metros de la hermosa playa de arena.&#160;
+El apartamento se alquila de septiembre -octubre hasta&#160; mayo-junio !
+Caracter&#237;sticas del Apartamento:
+
+Ubicaci&#243;n: 4&#170; planta con ascensor.
+Dormitorios: 3 dormitorios,&#160; con ventiladores y el dormitorio principal con aire acondicionado.
+Ba&#241;o: 1 ba&#241;os 1 con ducha y otro con ba&#241;era.
+Sal&#243;n: Amplio y acogedor sal&#243;n con ventiladores y aire acondicionado. Salida directa a una terraza .
+Cocina: Cocina independiente con todo lo necesario. La ventana de la cocina da al patio.
+Tres terrazas: Gran terraza con impresionantes vistas al mar en planta alta orientada al norte y otra terrasa mas paque&#241;a orientada al sur , perfecta para disfrutar de deliciosas bebidas y c&#225;lidas conversaciones.
+
+Extras:
+
+Confort: Aire acondicionado en el dormitorio principal y el sal&#243;n, ventiladores en todas las habitaciones.
+Vistas: Terraza con vistas al mar, ideal para relajarse y disfrutar del paisaje.
+Plaza de garaje opcional 50 euros al mes.
+
+Este apartamento es la elecci&#243;n perfecta para aquellos que buscan una estancia confortable y relajante cerca del mar durante los meses de invierno. Para consultar el precio del per&#237;odo de tus vacaciones, por favor, cont&#225;ctanos.
+&#161;No pierdas la oportunidad de disfrutar de este hermoso piso con todas las comodidades y una ubicaci&#243;n privilegiada !</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0332666c7a93af1c8.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0322666c7a8b61f03.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_306266607b4e6b24e.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0320666c7a8819682.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0321666c7a8734c25.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0324666c7a925de3c.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0323666c7a8cb72e9.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0325666c7a907dfa0.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0280666acf2346a7e.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0337666c7a8a6a099.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0336666c7a8ed842f.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0329666c7a958f113.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_30756660520171965.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0328_1_666c7a848f3bd.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0326666c7a9153922.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_307466605200490a3.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0279666acf218f2b1.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/___7_66607b51e338f.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_306766607b4c49356.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_306866607b4d1497c.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3066666051f941510.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0333666c7a9881a48.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3071666051ff1971d.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3073666051ffb5e0d.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0330666c7a9496864.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_306166607b4fb11f5.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3062666051f59b449.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3063666051f6803f3.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3096666052159f8a6.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3092666052116fe90.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3095666052145cf6a.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_30936660521281ddb.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3094666052136fd20.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0319666c7a89939fa.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0342666c7a8fb212a.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0331666c7a96c3ce6.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Alquiler de invierno</tipo_de_venta><property_name>Apartamentos, &#225;tico, D&#250;plex - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2765</id>
+  <date>2024-06-26 14:46:17</date>
+  <ref>ars0004</ref>
+  <price>550</price>
+  <currency>EUR</currency>
+  <price_freq>month</price_freq>
+  <new_build>0</new_build>
+  <type>bungalow</type>
+  <town>Arenales del Sol</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>1</baths>
+  <surface_area>
+   <built>67</built>
+   <plot>57</plot>
+  </surface_area>
+  <desc>
+   <es>ALQUILER DE INVIERNO DE SEPTIEMBRE 2024 HASTA JUNIO DE 2025 
+Te presentamos un encantador bungal&#243; en planta baja, ubicado en un exclusivo complejo cerrado con piscina. Este bungal&#243; es ideal para quienes buscan confort y tranquilidad en un entorno privilegiado. Con una superficie de 57 m&#178; utiles de vivienda y una impresionante terraza de 45 m&#178;, es perfecto para disfrutar del buen clima mediterr&#225;neo.
+Caracter&#237;sticas del bungal&#243;:
+
+Superficie de la vivienda: 57 m&#178;
+Terraza: 45 m&#178;
+Planta baja: f&#225;cil acceso y comodidad
+Orientaci&#243;n norte: ambiente fresco y agradable
+
+Complejo cerrado con piscina:
+Este bungal&#243; se encuentra en un complejo cerrado que ofrece seguridad y privacidad, adem&#225;s de una hermosa piscina comunitaria donde podr&#225;s relajarte y disfrutar del sol.
+Arenales del Sol:
+Arenales del Sol es un pintoresco pueblo costero conocido por sus playas de arena dorada y aguas cristalinas. Situado en la Costa Blanca, ofrece una variedad de servicios, restaurantes y actividades recreativas. Sus paisajes naturales y su clima envidiable lo convierten en un lugar ideal para vivir o pasar tus vacaciones.
+Vistas y entorno:
+Desde la amplia terraza del bungal&#243;, podr&#225;s disfrutar de vistas al jard&#237;n y al entorno del complejo. Es el lugar perfecto para cenas al aire libre, reuniones con amigos o simplemente para relajarte y disfrutar del paisaje.
+&#160;Precio de alquiler:
+
+Precio: 550 euros al mes (de septiembre a junio)
+Servicios adicionales: Electricidad, agua e internet no incluidos
+
+No pierdas esta oportunidad &#250;nica de vivir en un entorno paradis&#237;aco en Arenales del Sol. Cont&#225;ctanos para m&#225;s informaci&#243;n y para programar una visita. &#161;Te esperamos!
+Tu futuro hogar te espera en Arenales del Sol.&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Cable TV</feature>
+   <feature>Cable Internet</feature>
+   <feature>Landscaping</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/116648701316896.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/66648700ca69ea.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1266487013f182e.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16648700651aaf.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/266487007a43fc.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/366487008af2cf.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/46648700a33408.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/56648700b61218.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/76648700e2868b.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/86648700f8ed35.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/966487010cdfb8.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1066487011b8afb.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1366487014bf7e9.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/WhatsApp_Image_2024-05-15_at_19.14.2466487015d4170.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Alquiler de invierno</tipo_de_venta><property_name>Bungalow, Recomendado - Arenales del Sol</property_name></property>
+ <property>
+  <id>2764</id>
+  <date>2024-05-17 13:17:20</date>
+  <ref>phl0031</ref>
+  <price>369900</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>villa</type>
+  <town>Pilar de la Horadada</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>3</baths>
+  <surface_area>
+   <built>118</built>
+  </surface_area>
+  <desc>
+   <es>KEY READY!!!!!!!
+Hay 2 villas de 3 dormitorios y 3 ba&#241;os disponibles para reservar en un moderno complejo residencial construido en un pintoresco pueblo Pilar De La Horadada.&#161;Compre hoy la casa de sus sue&#241;os y celebre ma&#241;ana la inauguraci&#243;n de su casa!
+Vivienda 21 - D&#250;plex de 3 dormitorios
+Descubre tu nuevo hogar en una vivienda excepcional en planta baja y primera planta con un dise&#241;o moderno y acabados de alta calidad. Este d&#250;plex de tres dormitorios es ideal para quienes buscan confort y elegancia en un entorno tranquilo y bien comunicado.
+Caracter&#237;sticas de la vivienda:
+
+Superficie &#250;til total: 118,00 m&#178;
+Superficie construida total: 224,63 m&#178;
+
+Planta Baja:
+
+Superficie &#250;til: 78,10 m&#178;
+Superficie construida: 94,90 m&#178;
+Terraza: 28,80 m&#178;
+Patio: 7,00 m&#178;
+Piscina privada: 10,00 m&#178;
+
+Planta Primera:
+
+Superficie &#250;til: 30,00 m&#178;
+Superficie construida: 41,10 m&#178;
+Terraza: 41,35 m&#178;
+
+Distribuci&#243;n:
+
+Sal&#243;n-comedor-cocina: 35,70 m&#178;
+Dormitorio 1: 13,50 m&#178;
+Dormitorio 2: 10,80 m&#178;
+Dormitorio 3: 10,80 m&#178;
+Ba&#241;o 1: 4,50 m&#178;
+Ba&#241;o 2: 2,60 m&#178;
+Aseo: 2,60 m&#178;
+Garaje: 13,70 m&#178;
+
+Vivienda 22 - D&#250;plex de 3 dormitorios
+Esta vivienda en d&#250;plex ofrece un dise&#241;o contempor&#225;neo con espacios amplios y luminosos, pensados para la vida moderna.
+Caracter&#237;sticas de la vivienda:
+
+Superficie &#250;til total: 119,10 m&#178;
+Superficie construida total: 220,91 m&#178;
+
+Planta Baja:
+
+Superficie &#250;til: 78,60 m&#178;
+Superficie construida: 91,55 m&#178;
+Terraza: 25,50 m&#178;
+Patio: 7,50 m&#178;
+Piscina privada: 10,00 m&#178;
+
+Planta Primera:
+
+Superficie &#250;til: 40,50 m&#178;
+Superficie construida: 42,06 m&#178;
+Terraza: 41,75 m&#178;
+
+Distribuci&#243;n:
+
+Sal&#243;n-comedor-cocina: 35,15 m&#178;
+Dormitorio 1: 14,50 m&#178;
+Dormitorio 2: 11,30 m&#178;
+Dormitorio 3: 13,35 m&#178;
+Ba&#241;o 1: 4,95 m&#178;
+Ba&#241;o 2: 4,50 m&#178;
+Aseo: 2,60 m&#178;
+Garaje: 13,90 m&#178;
+
+Acabados y equipamiento:
+
+Estructura: Hormig&#243;n antis&#237;smico y armado seg&#250;n CTE.
+Fachada: Doble tabiquer&#237;a con aislante t&#233;rmico/ac&#250;stico.
+Solados y alicatados: Gres de primera calidad, dise&#241;o moderno.
+Pintura: Acabado liso, color blanco.
+Vidrios: Doble vidrio con c&#225;mara y control solar.
+Carpinter&#237;a interior: Puerta acorazada, acabados en blanco liso, armarios empotrados modulares.
+Carpinter&#237;a exterior: Aluminio color marr&#243;n oscuro, persianas el&#233;ctricas en sal&#243;n.
+Cocina: Muebles altos y bajos, encimera de Silestone o similar, electrodom&#233;sticos TEKA.
+Fontaner&#237;a y sanitarios: Instalaci&#243;n de tuber&#237;as PPR, sanitarios suspendidos, mueble de ba&#241;o y lavabo suspendido.
+Electricidad: Cableado completo, hal&#243;genos LED, puntos de luz seg&#250;n reglamento.
+Aislamientos: T&#233;rmico y ac&#250;stico seg&#250;n normativa.
+Climatizaci&#243;n: Pre-instalaci&#243;n por conductos con rejillas.
+Exterior: Parcela con muro ciego, puertas galvanizadas.
+Jard&#237;n y zonas comunes: Piscina comunitaria, c&#233;sped artificial, trastero para bicicletas.
+Extras: Suelo radiante en ba&#241;os, p&#233;rgola, cocina de verano, c&#233;sped artificial en solarium.
+</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Cable TV</feature>
+   <feature>Landscaping</feature>
+   <feature>Exterior Lighting</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1664756f898a35.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_734866475559879bf.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73496647555ad40b1.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_7345664755567520f.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_734666475557cb898.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73476647555844cb9.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73506647555b46846.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73516647555c9227a.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73536647555dd450f.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73546647555e3f764.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73556647555f89bbe.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_735666475560d0167.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73586647556158674.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73606647556256247.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_7363664755635d2e7.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_736466475564b9de2.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_736866475565ec2ac.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_736966475566640d5.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_7372664755679f6a2.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73736647556851fe5.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73746647556986386.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73756647556ad5bc8.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73806647556b56839.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73816647556ca1d36.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73836647556dd8d0d.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73846647556e3acc6.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73856647556fa51bf.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_738666475570ec35b.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73876647557151270.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_738866475572a2fb3.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_738966475573ebd53.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73926647557453c07.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_7393664755758820d.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_739566475576d71a5.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_73966647557797a25.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_739866475578f11c6.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74016647557962e4b.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74036647557aaa3cc.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74046647557beb734.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74056647557c5bc67.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74076647557da52e2.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74086647557ee87ca.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74096647557f564d9.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_741066475580a37b2.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_741366475581f18f3.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_74156647558265a59.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_741666475583bc6ff.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_7417664755851bfd4.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/jardinera_zona_bicis664755e7dfcd4.jpg</url>
+   </image>
+   <image id="50">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/picina_2664755e855de3.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Nuevo, villas - Pilar de la Horadada</property_name></property>
+ <property>
+  <id>2763</id>
+  <date>2024-05-31 18:18:12</date>
+  <ref>plh0030</ref>
+  <price>259900</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>apartment</type>
+  <town>Pilar de la Horadada</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>90</built>
+  </surface_area>
+  <desc>
+   <es>Descubre tu nuevo hogar en una vivienda excepcional en planta baja con un dise&#241;o moderno y acabados de alta calidad. Este apartamento de tres dormitorios es ideal para quienes buscan confort y elegancia en un entorno tranquilo y bien comunicado. Aqu&#237; tienes todos los detalles clave:
+Caracter&#237;sticas de la vivienda:
+
+Superficie &#250;til: 78,60 m&#178;
+Superficie construida: 90,76 m&#178;
+Terraza: 65,35 m&#178;
+Patio: 3,95 m&#178;
+Total: 147,90 m&#178; (160,06 m&#178; construidos)
+
+Distribuci&#243;n:
+
+Sal&#243;n-comedor-cocina: 29,70 m&#178;
+Dormitorio principal: 16,80 m&#178;
+Dormitorio 2: 11,00 m&#178;
+Dormitorio 3: 11,00 m&#178;
+Ba&#241;o 1: 5,35 m&#178;
+Ba&#241;o 2: 4,65 m&#178;
+Patio: 3,95 m&#178;
+
+Equipamiento y acabados:
+
+Cimentaci&#243;n y estructura: Hormig&#243;n antis&#233;ismico y armado seg&#250;n CTE
+Fachada: Doble tabiquer&#237;a con aislante t&#233;rmico/ac&#250;stico
+Solados y alicatados: Gres de primera calidad, dise&#241;o moderno
+Pintura: Acabado liso, color blanco
+Vidrios: Doble vidrio con c&#225;mara y control solar
+Carpinter&#237;a interior: Puerta acorazada, acabados en blanco liso, armarios empotrados modulares
+Carpinter&#237;a exterior: Aluminio color marr&#243;n oscuro, persianas el&#233;ctricas en sal&#243;n
+Cocina: Muebles altos y bajos, encimera de Silestone o similar, electrodom&#233;sticos TEKA
+Fontaner&#237;a y sanitarios: Instalaci&#243;n de tuber&#237;as PPR, sanitarios suspendidos, mueble de ba&#241;o y lavabo suspendido
+Electricidad: Cableado completo, hal&#243;genos LED, puntos de luz seg&#250;n reglamento
+Aislamientos: T&#233;rmico y ac&#250;stico seg&#250;n normativa
+Climatizaci&#243;n: Pre-instalaci&#243;n por conductos con rejillas
+Exterior: Parcela con muro ciego, puertas galvanizadas
+Jard&#237;n y zonas comunes: Piscina comunitaria, c&#233;sped artificial, trastero para bicicletas
+Extras: Suelo radiante en ba&#241;os, p&#233;rgola, cocina de verano, c&#233;sped artificial en solarium
+
+No dejes pasar esta oportunidad &#250;nica de adquirir un hogar de ensue&#241;o en Pilar De La Horadada. Cont&#225;ctanos para m&#225;s informaci&#243;n y para programar una visita. &#161;Te esperamos!</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Cable TV</feature>
+   <feature>Range/Oven</feature>
+   <feature>Refrigerator</feature>
+   <feature>Microwave</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/piscina_166471f88a43e5.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_860566471f7778851.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_857266471f6955b17.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_857466471f69c85d8.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_857566471f6a350cf.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_857666471f6b6f04d.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_857766471f6c9f6c6.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_858066471f6df0dfa.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_858266471f6e5ffa9.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_858366471f6fa72cf.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_858666471f71008e1.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_858866471f715ff81.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_859066471f72a00c3.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_859366471f73ea619.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_859566471f7450b03.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_859766471f75a255b.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_860166471f7702630.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/picina_266471f883037f.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/piscina_366471f8a008fa.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/Piscina_Playamar_X_266471f8b5c846.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/piscina_Playamar_X66471f8c54b41.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4d8016d7-5411-4e92-aab5-65c405260c4c66471f8d84247.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Nuevo, apartamentos - Pilar de la Horadada</property_name></property>
+ <property>
+  <id>2762</id>
+  <date>2024-05-16 12:47:29</date>
+  <ref>gd0007</ref>
+  <price>169500</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar del Segura</town>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>113</built>
+   <plot>105</plot>
+  </surface_area>
+  <desc>
+   <es />
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>/</url>
+   </image>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto16645ff81a7ad1.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto36645ff964090a.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto26646000f17ace.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto46646000f4aa69.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto5664600108085b.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto666460011a70ad.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto866460012b8fb7.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto1066460013d2a06.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto1166460014177f6.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto14664600153f0fc.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto15664600165b5d6.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/foto176646001771aed.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos - Guardamar del Segura</property_name></property>
+ <property>
+  <id>2761</id>
+  <date>2024-06-21 08:16:08</date>
+  <ref>dn0012</ref>
+  <price>350000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>villa</type>
+  <town>Daya Nueva</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>3</baths>
+  <surface_area>
+   <built>141</built>
+  </surface_area>
+  <desc>
+   <es>Esta excepcional propiedad combina una arquitectura elegante con tecnolog&#237;as modernas dise&#241;adas para proporcionar el m&#225;ximo confort y sostenibilidad. La villa est&#225; situada en una zona prestigiosa y es el lugar ideal para vivir en familia o para disfrutar de un retiro tranquilo. Est&#225;n disponibles para la venta cuatro villas, cada una con 3 habitaciones y 3 ba&#241;os+1 aseo.
+Principales Ventajas:
+
+Estructura: Construida con hormig&#243;n armado de alta resistencia con una estructura unidireccional ligera y modernas escaleras de hormig&#243;n.
+Exterior: Fachadas de doble capa de ladrillo, aisladas y revestidas para una &#243;ptima retenci&#243;n de calor.
+Aislamiento: Cubierta aislante de poliestireno de alta eficacia en techos planos y terrazas, proporcionando excelente aislamiento t&#233;rmico y protecci&#243;n contra la humedad.
+Ventanas y Puertas: Modernas ventanas de PVC con doble acristalamiento y persianas de aluminio, adem&#225;s de una puerta de entrada con cerradura multipunto para asegurar la seguridad.
+
+Acabados y Equipamiento:
+
+Cocina: Cocina moderna con armarios modulares, puertas lacadas y electrodom&#233;sticos de alta calidad. Equipada con encimeras de compuesto y un fregadero integrado de acero inoxidable.
+Ba&#241;os: Totalmente revestidos con cer&#225;mica de alta calidad, inodoros suspendidos, iluminaci&#243;n decorativa LED y cabinas de ducha antideslizantes.
+Sistemas de Climatizaci&#243;n: Preinstalaci&#243;n de aire acondicionado y paneles solares para la calefacci&#243;n de agua. Chimenea opcional.
+Iluminaci&#243;n: Iluminaci&#243;n interior con l&#225;mparas LED que proporcionan una iluminaci&#243;n brillante y eficiente.
+
+Ventajas del Entorno:
+
+Piscinas: Piscina recreativa privada en el jard&#237;n con iluminaci&#243;n y fuente, adem&#225;s de una piscina comunitaria con ducha exterior.
+&#193;rea Externa: Terraza equipada con p&#233;rgola y barandillas de aluminio, luces de jard&#237;n integradas y jardineras decorativas con grava para comodidad y belleza.
+
+Estas villas son una elecci&#243;n perfecta para aquellos que buscan confort y lujo en una zona tranquila y atractiva.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Garage</feature>
+   <feature>Carpet Throughout</feature>
+   <feature>Cable TV</feature>
+   <feature>Cable Internet</feature>
+   <feature>Landscaping</feature>
+   <feature>Range/Oven</feature>
+   <feature>Refrigerator</feature>
+   <feature>Microwave</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/daya_nueva16641ff899f2bf.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000786641fbfeac14e.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00039_2_6641fbae57e96.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000396641fbaf1a8e8.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00040_2_6641fbb01d86a.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000406641fbb10ecc5.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000416641fbb1efa54.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000426641fbb2bf7c4.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00043_2_6641fbb3bc156.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000436641fbb56d4bf.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000446641fbb6728c3.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000456641fbb752786.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00046_2_6641fbb848cd8.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000466641fbb94c7e7.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00047_2_6641fbbaa6162.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00048_2_6641fbbf0072d.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000486641fbc113dec.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00049_2_6641fbc2b5e3b.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00050_2_6641fbc4a0a21.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-00051_2_6641fbcb5f478.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000546641fbd09d41b.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000556641fbd46cf5c.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000576641fbd7ae2f9.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000586641fbdcda7a2.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000596641fbe13a9b9.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000606641fbe6c14d5.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000616641fbe92dd3e.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000626641fbea65d3d.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000636641fbebccf03.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000646641fbeda82aa.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000656641fbefcc898.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000666641fbf3e8183.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000706641fbf5badf9.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000726641fbf8193f0.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000736641fbf9ab3dc.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000766641fbfb32124.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000776641fbfd4415c.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000796641fc0167ecb.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000826641fc02bc399.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000836641fc05194d5.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000846641fc06e686f.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000856641fc0b65d72.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000866641fc150e47c.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/vlcsnap-000876641fc17383c6.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-13__11.52.166641fcce03ee0.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-13__13.39.036641fcce6c8f1.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-13__13.39.246641fccfa4084.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-13__13.39.466641fcd0eb9d6.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__6641fcde02e19.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-13__13.40.196641fcd15e032.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Villas, Nuevo - Daya Nueva</property_name></property>
+ <property>
+  <id>2760</id>
+  <date>2024-06-21 08:17:09</date>
+  <ref>tr0201</ref>
+  <price>255000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>apartment</type>
+  <town>Torrevieja</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>112</built>
+  </surface_area>
+  <desc>
+   <es>Residencial Alegr&#237;a XXI &#8211; &#218;ltimas unidades en el coraz&#243;n de Torrevieja
+No deje pasar la oportunidad de adquirir una de las &#250;ltimas dos viviendas disponibles en el prestigioso Residencial Alegr&#237;a XXI, situado en el vibrante centro de Torrevieja, a solo diez minutos a pie de la encantadora Playa Del Cura. Estas exclusivas viviendas de 119.09 m&#178; y 112.07 m&#178; est&#225;n perfectamente dise&#241;adas para maximizar el confort y la funcionalidad, con tres dormitorios, dos ba&#241;os y amplias terrazas que ofrecen un espacio ideal para relajarse y disfrutar del clima mediterr&#225;neo.
+Cada apartamento en Residencial Alegr&#237;a XXI refleja un est&#225;ndar de calidad superior, con una estructura de hormig&#243;n armado resistente a sismos, cerramientos de fachada con aislamiento termoac&#250;stico y carpinter&#237;a exterior de PVC de primera calidad que garantizan un excelente aislamiento t&#233;rmico y ac&#250;stico. Los interiores son un ejemplo de elegancia y modernidad, destacando las instalaciones de cocina con encimeras de cuarzo compacto tipo Silestone, ba&#241;os equipados con lo &#250;ltimo en sanitarios y grifer&#237;a, y suelo radiante en los ba&#241;os para un extra de confort. Adem&#225;s, cada apartamento cuenta con instalaciones de aire acondicionado, iluminaci&#243;n completa y preinstalaciones para fibra &#243;ptica, asegurando un hogar listo para las demandas de la vida moderna.
+Residencial Alegr&#237;a XXI no solo ofrece viviendas de lujo, sino tambi&#233;n acceso a zonas comunes excepcionales como una piscina climatizada comunitaria, sauna finlandesa y &#225;reas de relajaci&#243;n, perfectas para disfrutar al m&#225;ximo del estilo de vida mediterr&#225;neo. Con solo dos apartamentos disponibles, esta es una oportunidad &#250;nica para aquellos que buscan un hogar exclusivo en una de las ubicaciones m&#225;s deseables de Torrevieja.</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2_fachada_1__663e20cb9813a.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1_fachada__663e20ca66796.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3_fachada_2_663e20ccbabac.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4_fachada_3_663e20cde9ec3.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5_fachada_4_663e20ce3463c.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6_fachada_5_663e20cf5d5c2.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7_solarium__663e20d08a634.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/del_cura663e2197805cb.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8_solarium_1_663e20d1bb230.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/9_piscina__663e20d2e7792.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/10_piscina_1__663e20d337efb.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/11_saluna_1_663e20d4554eb.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/12_saluna_2__663e20d58ee37.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/13_salon__663e20d6b9f60.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/14_salon_1__663e20d7eabe4.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/15_salon_2__663e20d831bb6.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16_cocina__663e20d95906f.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/17_dormitorio__663e20da88efe.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/18_dormitorio_1__663e20dbba89a.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/19_bano__663e20dceb316.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/20_dormitorio_3__663e20dd3b64a.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/21_dormitorio_4_663e20de6de57.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/22_bano_2__663e20df86103.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1663e20273959c.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663e202832d26.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-10__15.02.01663e202638857.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Nuevo, Popular - Torrevieja</property_name></property>
+ <property>
+  <id>2759</id>
+  <date>2024-05-31 18:31:51</date>
+  <ref>tr0200</ref>
+  <price>249000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Torrevieja</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>100</built>
+  </surface_area>
+  <desc>
+   <es>Descubra la mezcla perfecta de lujo y confort en Residencial Alegr&#237;a XIX, un nuevo pin&#225;culo de la vida moderna en la vibrante ciudad de Torrevieja. Este desarrollo exclusivo promete no solo un hogar, sino un nuevo estilo de vida, meticulosamente dise&#241;ado para satisfacer todos los deseos de los compradores de casas m&#225;s sofisticados.
+Quedan solo tres apartamentos, cada uno con un &#225;rea total de 100.26 m&#178;, distribuidos en 2 dormitorios y 2 ba&#241;os. La singularidad de cada apartamento se realza con la presencia de una terraza espaciosa, proporcionando espacio adicional para el relax y el entretenimiento al aire libre, creando condiciones ideales para una vida c&#243;moda.
+Caracter&#237;sticas clave incluyen:
+
+Construcci&#243;n s&#243;lida: Ingenier&#237;a con hormig&#243;n armado resistente a terremotos y vigas de cemento pretensado, garantizando seguridad y estabilidad. Todas las fases de la construcci&#243;n est&#225;n monitoreadas para asegurar la calidad y vienen con una garant&#237;a de estabilidad de diez a&#241;os.
+Encierros de alto rendimiento: Aislamiento t&#233;rmico y ac&#250;stico est&#225;ndar en todas las viviendas, con ventanas de doble acristalamiento de baja emisividad y carpinter&#237;a de PVC de primera calidad asegurando un ambiente tranquilo y eficiente energ&#233;ticamente.
+Acabados de lujo: Las viviendas presumen de dise&#241;os interiores elegantes con puertas de seguridad blindadas, armarios empotrados revestidos de madera y acabados de pintura lisa y elegante. Disfrute del confort contempor&#225;neo del suelo radiante en todos los ba&#241;os y la iluminaci&#243;n completa de la casa.
+Vida al aire libre: Cada hogar cuenta con un sol&#225;rium privado equipado con ducha y barbacoa, perfecto para entretener o relajarse bajo el sol.
+Amenidades comunitarias: Los residentes pueden disfrutar de la piscina comunitaria con agua salada, una sauna finlandesa y terrenos meticulosamente paisaj&#237;sticos que realzan la experiencia de vida serena.
+
+Sistemas avanzados para el hogar:
+
+Preparado para casa inteligente: Conductos preinstalados para fibra &#243;ptica e instalaciones el&#233;ctricas completas preparan su hogar para el futuro.
+Soluciones sostenibles: La calefacci&#243;n del agua mediante paneles solares o un sistema aerot&#233;rmico, junto con productos sanitarios y grifer&#237;a ahorradores de agua, subrayan un compromiso con la sostenibilidad ambiental.
+
+Residencial Alegr&#237;a XIX est&#225; ubicado en el coraz&#243;n de Torrevieja, a un paso de hermosas playas, mercados bulliciosos y una vida nocturna vibrante, pero ofrece un refugio tranquilo del ajetreo cotidiano. Los precios son competitivos, haciendo de estos hogares no solo un espacio para vivir, sino una inversi&#243;n inteligente en su futuro.
+Su hogar so&#241;ado le espera: Adopte un estilo de vida de confort y lujo sin igual en Residencial Alegr&#237;a XIX. Con cada detalle dise&#241;ado cuidadosamente para mejorar su experiencia de vida, estas casas son imperdibles. Asegure su pedazo de para&#237;so en Torrevieja hoy y experimente la vida en su m&#225;xima expresi&#243;n.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Cable TV</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1663e0421cd66a.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663e04288b42f.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/del_cura663e04f521424.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663e042fdf00e.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663e0436956d5.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663e043c9c98a.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663e043e6c496.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663e043f69cac.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8663e04405ef13.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/9663e04416eb0e.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/10663e04426200e.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-10__13.16.24663e044509614.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-10__12.51.58663e0443adaeb.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Nuevo, Recomendado - Torrevieja</property_name></property>
+ <property>
+  <id>2758</id>
+  <date>2024-06-26 14:38:57</date>
+  <ref>rj0020</ref>
+  <price>339000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>villa</type>
+  <town>Rojales</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>3</baths>
+  <surface_area>
+   <built>142</built>
+  </surface_area>
+  <desc>
+   <es>Las villas est&#225;n disponibles para reserva ahora. Ubicado en el l&#237;mite de Rojales, en el pintoresco pueblo de Las Heredades, Essence II - Costa Blanca se erige como un faro de lujo y vida serena. Este prestigioso desarrollo te invita a explorar su variedad de impresionantes villas y comodidades exclusivas.
+&#160;
+Caracter&#237;sticas Clave:
+
+Amplios Espacios de Vida: Villas unifamiliares de dos pisos con &#225;reas de vida entre 142 y 149 m&#178;.Cada villa tiene 3 dormitorios y 3 ba&#241;os
+Parcelas Generosas: Cada villa se asienta en terrenos de hasta 217 m&#178;.
+Terrazas Expansivas: M&#225;s de 40 m&#178; de espacio en terraza, perfecto para el disfrute al aire libre.
+Piscinas Privadas: Piscinas de 6m x 3m .
+
+Dise&#241;o y Calidad:
+
+Est&#233;tica al Estilo Ibiza: Experimenta el dise&#241;o &#250;nico y el sello de calidad de Essence Costa Blanca.
+Acabados de Lujo: Cada hogar refleja altos est&#225;ndares de arquitectura moderna combinados con materiales de primera calidad.
+
+Promociones y Extras (V&#225;lidas hasta el 30 de mayo):
+
+Paquete Completo: Piscina, Electrodom&#233;sticos, Iluminaci&#243;n y un Sistema Completo de Paneles Solares incluidos con la compra.
+
+Ubicaci&#243;n y Estilo de Vida:
+
+Pintoresco y Conveniente: Cerca de Rojales, ofreciendo f&#225;cil acceso a playas y campos de golf.
+Entorno Tranquilo: Disfruta de un entorno pac&#237;fico con la belleza natural de la Costa Blanca.
+
+Informaci&#243;n Adicional:
+
+Conoce Nuestros Est&#225;ndares: Visita las villas de &#8220;Essence I La Herrada&#8221; en Los Montesinos para ver nuestros est&#225;ndares de calidad en acci&#243;n.
+Perspectiva Futura: La construcci&#243;n de la villa piloto est&#225; en marcha con entrega de llaves prevista para abril de 2025.
+Precio de Salida: Viviendas disponibles desde &#8364;399,000.
+
+&#160;
+No esperes m&#225;s. Cont&#225;ctanos hoy para acercarte al hogar de tus sue&#241;os. &#161;Tu oportunidad de vivir en este oasis de tranquilidad est&#225; a solo un clic de distancia!</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Fireplace</feature>
+   <feature>Cable TV</feature>
+   <feature>Landscaping</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__16.27.16663cde07a9757.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.17.06663cde0a6482b.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.17.23663cde13e327b.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.20.31663cde0014943.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.17.42663cde044a190.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.15.30663cde1234698.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.23.11663cde0cc9625.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.22.59663cde1060132.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-09__12.23.21663cde0eb5d71.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Villas, Recomendado, Nuevo - Rojales</property_name></property>
+ <property>
+  <id>2756</id>
+  <date>2024-06-26 14:43:41</date>
+  <ref>man0031</ref>
+  <price>469000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>apartment</type>
+  <town>La Manga</town>
+  <province>Murcia</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>120</built>
+   <plot>80</plot>
+  </surface_area>
+  <desc>
+   <es>&#161;Apartamentos de Lujo Pr&#243;ximamente: Reserva tu Hogar de Ensue&#241;o junto al Mediterr&#225;neo y el Mar Menor!
+&#161;Oportunidad emocionante para poseer un pedazo de para&#237;so! Nuestros apartamentos de lujo, propers a completarse, estan sent reservados rapidament per compradores exigentes ansiosos per disfrutar de l'estil de vida definitiu al costat del mar Mediterraneo i el tranquilo Mar Menor.
+Destacados del Apartamento:
+
+Alojamiento para Seis: Cada apartament incluye dos dormitorios dobles complets i una habitaci&#243; multiprop&#243;sito amb un sof&#225; cama c&#243;modo, con capacidad para hasta seis personas. Disfruta de dos ba&#241;os completos, con uno en suite en el dormitorio principal.
+Vivienda de Plano Abierto Elegante: Nuestro espacioso dise&#241;o conecta sin problemas el vest&#237;bulo, la cocina y el &#225;rea de estar-menjador, perfecte per a entretener o relaxarse &#8203;&#8203;con vistas impresionantes.
+Construcci&#243;n e Insulaci&#243;n Superiores: Construidos sobre una robusta fundaci&#243;n de pilotes y pantallas, nuestros edificios cuentan con pilares de formig&#243;n armado y losas reticulares. La fa&#231;ana presume de ladrillo cer&#225;mico aislado con lana mineral y tablero de yeso para una efici&#232;ncia energ&#233;tica de primera.
+Acabados Interiores de Lujo: Des de unitats de magatzem personalizadas de roble Nebrasca con iluminaci&#243;n integrada fins a ventanas de aluminio d'alta gama amb vidrio de seguretat laminado, cada detalle est&#224; disenyat para la elegancia y el confort.
+Vida al Aire Libre: Disfruta del balc&#243;n o terrassa privada, bellamente embaldosada &#1110; perfecta &#1076;&#1083;&#1103; absorber el entorno pintoresco. Jardines comunitarios y una piscina mejoran tu experiencia al aire libre.
+Seguridad Avanzada y Conveniencia: Sientete seguro con cerraduras inteligentes, videoporteros y un sistema d'alarma completament instalado, asegurando tranquilidad.
+Sostenibilidad y Confort: Equipados con sistemas modernos de aire acondicionado, calefacci&#243;n por terra radiante en los ba&#241;os i un sistema de recuperaci&#243; denergia en la ventilaci&#243;n, els nostres apartaments promouven un ambiente sostenible y confortable.
+
+&#193;REAS COMUNES
+Las &#225;reas comunes exteriores a la planta baixa estan extensamente distribuidas a lo largo de todo el complejo y comprenden lo siguiente:
+
+Una piscina infinita de 246 m2
+Una piscina infantil de 103 &#1084;2
+Una piscina climatizada de 62 m2 que extende la temporada de nataci&#243;n
+&#193;reas equipadas con hamacas para las 3 piscinas anteriores.
+Mini golf.
+&#193;rea de estacionamiento para bicicletas.
+Duchas al aire libre junto a las entradas/salidas a la playa
+Bar &#1085;&#1072;&#1083;&#1110;&#1095;&#1091;&#1108; la piscina principal Infinity.
+3 jacuzzis circulares &#1085;&#1072; &#1090;&#1077;&#1088;&#1080;&#1090;&#1086;&#1088;&#1110;&#1111; piscina principal Infinity.
+Uso de kayaks y tablas de paddle surf, vela, etc.
+
+En la planta baja del Bloque 3, &#1090;&#1072;&#1082;&#1086;&#1078; &#1110;&#1089;&#1085;&#1091;&#1102;&#1090;&#1100; &#1089;&#1092;&#1077;&#1088;&#1080; &#1090;&#1077;&#1093;&#1085;&#1110;&#1095;&#1085;&#1080;&#1093; &#1088;&#1077;&#1072;&#1082;&#1094;&#1110;&#1081;.
+
+Una recepci&#243;n principal para invitados o inquilinos del alojamiento
+Vivienda para conserje/mantenimiento
+&#192;rea de salud y benestar con diversos elements com ducha hidroterap&#233;utica, ducha sensorial, ducha azul, zona sauna y ba&#241;o turco
+Club infantil.
+&#1043;&#1110;&#1084;&#1085;&#1072;&#1089;&#1110;&#1086;.
+
+Ba&#241;os en &#225;reas comunes.
+
+En el s&#243;tano es los trasteros y el estacionamiento que corresponden a las propiedades y son de uso exclusivo, un tanque de agua potable, &#1072; &#1090;&#1072;&#1082;&#1086;&#1078; las salas t&#233;cnicas y de instalaciones.
+
+No te perdas esta oportunitat exclusiva de assegurar la teva llar de ensue&#241;o en una de las ubicacions mas codiciadas al costat del Mediterr&#225;neo y el Mar Menor. Estos apartaments se estan vendiendo rapidament, aix&#237; que date pressa si quieres experimentar una vida incre&#237;ble en un entorno impresionante. &#161;Reserva tu futuro hogar hoy y ad&#233;ntrate en el lujo junto al mar!
+&#160;Cont&#225;ctanos para obtener los planos de los apartamentos disponibles.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Cable TV</feature>
+   <feature>Cable Internet</feature>
+   <feature>Landscaping</feature>
+   <feature>Fruit Trees</feature>
+   <feature>Exterior Lighting</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PASEO_663b9873b9f8c.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PISCINA_GRANDE_663b98753af6a.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/ENCAJE_TRASERA_663b98715e800.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CHORROS_ENTRADA_663b987004329.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/ENCAJE_PLAYA_663b98703bc61.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/GYM_663b987286721.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/BAR_663b986facede.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PASEO_INTERIOR_663b9874ec18f.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PISCINA_NADO_663b98765880c.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PISCINA_NOCHE_663b987793af1.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/RECEPCION_663b9878c14c0.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/SAUNA_663b9879e72bd.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/SOLARIUM_663b987a2ccad.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/SOLARIUM_PISCINA_663b987b58513.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/SOLARIUM_PLAYA_663b987c8c186.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1112_663b995587c89.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1113_663b9956c3c86.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1114_663b9957eb0d6.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1116_663b99586e2e8.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1117_663b9959a516e.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1121_663b995dd0cf8.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1122_663b995e35549.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1123_663b995f5cf78.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1124_663b996087ccd.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1126_663b9961b822a.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1127_663b9962d5b1f.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1128_663b996341ef8.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1129_663b99646e856.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1131_663b99659ecee.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1135_663b99687b25f.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1138_663b996ad1260.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1140_663b996d6fd5a.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1141_663b996eb2249.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1142_663b996fc35e8.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1143_663b9970bff84.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1144_663b9971b218f.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1145_663b9972c16f6.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1148_663b9974a76ad.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1149_663b9975b6f32.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1150_663b9976ba6a2.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1151_663b997801f8a.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1155_663b997ab50f4.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1157_663b997ccdc68.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1158_663b997e0f162.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1159_663b997f4450f.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1160_663b99807bc9b.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1166_663b99868a0c6.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1171_663b9987b7851.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1173_663b9988ea3e4.jpg</url>
+   </image>
+   <image id="50">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_1175_663b998a72b12.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Recomendado, Nuevo, apartamentos - La Manga</property_name></property>
+ <property>
+  <id>2755</id>
+  <date>2024-06-26 15:20:55</date>
+  <ref>gsb0002</ref>
+  <price>1500</price>
+  <currency>EUR</currency>
+  <price_freq>month</price_freq>
+  <new_build>0</new_build>
+  <type>town house</type>
+  <town>Guardamar del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>4</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>180</built>
+  </surface_area>
+  <desc>
+   <es>Chalet adosado en la primera linea de playa, recidencial Benamor que vengas a disfrutar!!!
+Chalet adosado&#160; con vistas laterales al mar en la primera linea de playa,priveligiado&#160; recidencial Benamor.&#160;
+Disfruta de la tranquilidad y belleza de la Costa Blanca en este estupendicimo chalet adosado ubicado en la 1&#170; l&#237;nea de la playa, a solo en unos pasos&#160; de la hermosa playa de arena de Guardamar . El complejo de Benamor&#160; cuenta con un bonito territorio, perfecto para cuando regreses de la playa.
+La vievienda esta dividida en 3 niveles,1/en planta baja encontramos una bonisima terraza con vistas al mar y al entrar en casa un hermoso salon- comedor con la chimenea para invierno ,cocina americana ,un ba&#241;o con plato de ducha,el patio para tender la ropa y etc.
+2/En primera planta tenemos 3 dormitorios 2 de ellas con armarios empotrados ,un ba&#241;o completo con la ba&#241;era y un balcon con vista lateral al mar.
+3/En el sotano tenemos un salon sencillo con la bodega y 1 dormitorio con armarios empotrados&#160; y garaje independiente .
+Caracter&#237;sticas del chalet:
+
+Dormitorios: 4 dormitorios.
+Ba&#241;os: 2 ba&#241;o uno con ducha y otro con la ba&#241;era.
+Sal&#243;n: Amplio y acogedor sal&#243;n con aire acondicionado y chimenea. Salida directa a una gran terraza soleada con vistas al mar.
+Cocina: Cocina americana con todo lo necesario. La ventana de la cocina da al patio.
+Terraza: Gran terraza con impresionantes vistas al mar, perfecta para disfrutar de deliciosas bebidas y c&#225;lidas conversaciones.
+
+&#160;
+Esta vivienda&#160; es la elecci&#243;n perfecta para aquellos que buscan una estancia confortable y relajante cerca del mar durante los meses de invierno. Para consultar el precio del per&#237;odo de tus vacaciones, por favor, cont&#225;ctanos.
+&#161;No pierdas la oportunidad de disfrutar de este hermoso chalet&#160; con todas las comodidades y una ubicaci&#243;n privilegiada en unos pasos de la playa!
+&#160;
+&#160;
+&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Garage</feature>
+   <feature>Fireplace</feature>
+   <feature>Cable TV</feature>
+   <feature>Cable Internet</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/456225a4-46b8-4fdd-83de-1b283894dcce663a5ba293d13.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663a5b86ab216.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663a5b8100fb6.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663a5b82bd4f3.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663a5b8416b41.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663a5b85505d7.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663a5b87c9a83.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8663a5b88c7030.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/9663a5b8a068a9.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/12663a5b8d559cf.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/13663a5b8e8be71.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/14663a5b8fd80dd.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/15663a5b9124270.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16663a5b92301e1.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/17663a5b9358e14.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/18663a5b94a1a04.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/19663a5b95f2aaa.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/20663a5b9735719.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/21663a5b984c198.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/22663a5b994a720.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/23663a5b9a520f3.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/25663a5b9c59aee.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/26663a5b9d3d20b.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/27663a5b9e254ed.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/28663a5b9f34372.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/30663a5ba1b051c.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/29663a5ba084216.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Alquiler para todo el a&#241;o</tipo_de_venta><property_name>Chalet adosado, D&#250;plex - Guardamar del Segura</property_name></property>
+ <property>
+  <id>2754</id>
+  <date>2024-06-29 10:05:51</date>
+  <ref>lmn00021</ref>
+  <price>359900</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>villa</type>
+  <town>Los Montesinos</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>3</baths>
+  <surface_area>
+   <built>111</built>
+   <plot>110.90</plot>
+  </surface_area>
+  <desc>
+   <es>&#160;
+Te presentamos un nuevo proyecto de 12 villas independientes con 3 dormitorios y piscina privada, ubicadas en la zona de La Herrada, una &#225;rea residencial del municipio de Los Montesinos (Alicante). A tan solo 10 minutos del centro y de las playas de Guardamar del Segura, Torrevieja y Orihuela Costa. Despu&#233;s del &#233;xito de los desarrollos previos con el mismo dise&#241;o de villa, se ha lanzado una nueva fase en La Herrada, cercana a todas las comodidades.
+Las villas cuentan con 3 dormitorios y 3 ba&#241;os, piscina privada, amplias terrazas y sol&#225;rium en la azotea para disfrutar al m&#225;ximo del aire libre en Espa&#241;a.
+Distribuci&#243;n interior:- Planta baja: sala de estar y comedor luminoso y espacioso con puertas de patio que dan acceso a la terraza, cocina moderna de estilo americano completamente equipada con una puerta de acceso independiente a la terraza frontal, ideal para comer al aire libre, cuarto de lavander&#237;a/almacenamiento, un dormitorio doble y un ba&#241;o de invitados independiente. Hay una puerta de acceso adicional en la parte trasera de la propiedad que conduce a la terraza trasera.- Primera planta: dormitorio principal con ba&#241;o en suite y terraza privada de 15 m&#178;, otro dormitorio doble y un segundo ba&#241;o de invitados independiente. El pasillo de la primera planta tiene una puerta de acceso en la parte trasera que conduce a una peque&#241;a terraza, desde la cual se puede acceder mediante una escalera externa al amplio sol&#225;rium en la azotea de 43 m&#178; para disfrutar del sol todo el d&#237;a.
+Caracter&#237;sticas de las propiedades:- Construidas con altas calidades y acabados con un certificado de rendimiento de Clase A.- Incluyen preinstalaci&#243;n de aire acondicionado por conductos, calefacci&#243;n por suelo radiante en todos los ba&#241;os, armarios empotrados en todos los dormitorios, persianas el&#233;ctricas en toda la propiedad, sistema de intercomunicaci&#243;n, jard&#237;n terminado con plantas decorativas, piscina privada de 7x3m con banco jacuzzi y preinstalaci&#243;n para una bomba de calor, ducha exterior y estacionamiento privado en la parcela con toma de corriente para cargar coches el&#233;ctricos.
+La Herrada es una urbanizaci&#243;n residencial tranquila, situada en las afueras de Los Montesinos. La urbanizaci&#243;n cuenta con su propio supermercado y algunos bares y restaurantes, y todas las comodidades de Los Montesinos est&#225;n tambi&#233;n a poca distancia a pie. Los Montesinos tiene una atm&#243;sfera muy animada, con una buena mezcla de residentes espa&#241;oles y expatriados. La ciudad m&#225;s grande de Torrevieja, las hermosas playas de arena de Guardamar del Segura y una variedad de campos de golf impresionantes est&#225;n a solo un corto trayecto en coche.
+Caracter&#237;sticas clave:- Piscina: piscina privada.- Calidad: obra nueva.- Exterior: jard&#237;n, terraza en la azotea, terraza.- Caracter&#237;sticas interiores: trastero.
+Para m&#225;s informaci&#243;n, contacto y visitas:- Contacto directo: +34637987769- WhatsApp: (disponible)
+&#191;Te gustar&#237;a obtener m&#225;s detalles o programar una visita?Rellena el formulario con tu nombre, apellido, correo electr&#243;nico y, opcionalmente, tu n&#250;mero de tel&#233;fono. Tambi&#233;n puedes optar por recibir recomendaciones de propiedades, inspiraci&#243;n y consejos sobre mudanzas al extranjero.
+Suscr&#237;bete y recibe nuestras recomendaciones!
+Ubicaci&#243;n aproximada:Utiliza dos dedos para mover el mapa y &#8984; + scroll para hacer zoom. Para m&#225;s informaci&#243;n sobre la ubicaci&#243;n, pregunta a Monolit.
+Visitas remotas disponibles:Programa una videollamada en vivo con el agente y conoce la propiedad desde la comodidad de tu sal&#243;n.
+&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-162663a3df6b3a17.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-186663a3dfb9edf4.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/01663a3ddfd264d.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-194663a3dde4c9b0.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/02663a3de1ea376.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/03663a3de3babb4.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/04663a3de63765f.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/05663a3de88825d.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/06663a3deac3a05.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/07663a3dece8f52.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/08663a3df0723d6.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/01_living_room663a3df1a47c1.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/02_living_room__kitchen663a3df2d47f3.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/03_kitchen__bathroom663a3df38f39c.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-157663a3df4d64ae.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-158663a3df5e6398.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-166663a3df809ef2.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-180663a3df90c237.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-189663a3dfcd6e8d.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-190663a3dfde2070.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-194663a3dfed4a33.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-143663a3dff8120d.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-145663a3e00b6be2.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-149663a3e029a22d.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-150663a3e03d2326.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-152663a3e04652c5.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-153663a3e05a7fb2.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-154663a3e06da3d0.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-196663a3e079f2d0.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-199663a3e08d0a32.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-200663a3e098433b.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-202663a3e0ac1440.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-204663a3e0bf2321.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-206663a3e0cab6fa.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-209663a3e0de70cd.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-210663a3e0eb0afc.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-211663a3e0fe7cba.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/DETALLES_2-9663a3e10d1cda.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/DETALLES_2-29663a3e12b8166.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-5663a3e13eca5a.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-7663a3e1499c8c.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-15663a3e16d2cd9.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-18663a3e18a42bb.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-20663a3e19d412f.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/DETALLES_2-1663a3e1ce7df9.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-59663a3eb264b13.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-64663a3eb388d6b.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-66663a3eb4c00e1.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-70663a3eb5ef582.jpg</url>
+   </image>
+   <image id="50">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/CM-71663a3eb6417ac.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Villas, chalet independiente, Nuevo - Los Montesinos</property_name></property>
+ <property>
+  <id>2753</id>
+  <date>2024-06-26 15:23:31</date>
+  <ref>vl00017</ref>
+  <price>135000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Villamartin</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>1</baths>
+  <surface_area>
+   <built>134</built>
+  </surface_area>
+  <desc>
+   <es>Encantador Refugio Mediterr&#225;neo con Extenso Jard&#237;n Privado
+Ubicada en el tranquilo barrio de Villamartin, esta residencia de estilo mediterr&#225;neo en planta baja ofrece un retiro id&#237;lico en una ubicaci&#243;n codiciada. La casa est&#225; situada en una parcela de esquina generosamente amplia de 134 m&#178;, presumiendo de un extenso jard&#237;n privado bellamente ajardinado que invita a vivir al aire libre serenamente y a disfrutar durante todo el a&#241;o.
+En el interior, la casa cuenta con dos acogedoras habitaciones y un ba&#241;o elegantemente equipado, proporcionando una combinaci&#243;n perfecta de confort y estilo. El espacioso sal&#243;n se comunica sin esfuerzo con un &#225;rea de comedor luminosa, ideal para entretener a los invitados o disfrutar de comidas tranquilas en familia. Una cocina independiente y completamente equipada sirve como refugio culinario con amplio almacenamiento y espacio de trabajo, mientras que el patio trasero adyacente mejora el flujo interior-exterior de la casa, ofreciendo un espacio adicional para relajarse o cenar bajo las estrellas.
+Los residentes disfrutar&#225;n de acceso exclusivo a una gran piscina comunitaria y una zona verde exuberante, perfecta para d&#237;as de ocio absorbiendo el sol o disfrutando del aire libre. Comodidades adicionales incluyen aire acondicionado, asegurando un refugio fresco durante los c&#225;lidos veranos mediterr&#225;neos.
+
+
+
+
+
+Adem&#225;s de ser un hogar familiar ideal, esta propiedad tambi&#233;n ofrece un potencial excepcional como sede para una empresa o oficina. Con espacios amplios y vers&#225;tiles, se adapta perfectamente a las necesidades de aquellos que buscan combinar la comodidad residencial con funcionalidad profesional. El ambiente tranquilo y la privacidad del jard&#237;n crean un entorno perfecto para reuniones o como un retiro pac&#237;fico del bullicio comercial, haciendo de esta propiedad una opci&#243;n atractiva tanto para la vida residencial como para el uso profesional.
+
+
+
+
+
+&#160;</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/02663a196aea781.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/01663a1969c71b3.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/03663a196bdbc46.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/04663a196cae16d.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/05663a196dd105e.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/06663a196ea33d2.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/07663a196fe8969.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/08663a19708f483.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/09663a1971bc69f.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/10663a1972f2721.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/11663a1973a1cc1.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/12663a1974d340c.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/13663a19757be0a.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/14663a1976a2306.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/15663a1977cf2ef.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16663a197880698.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/17663a1979ba61c.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/18663a197b04a56.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/19663a197ba233b.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/20663a197cd6506.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/21663a197e0f0f8.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/22663a197ec6a04.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/23663a19800fdce.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/24663a1981146b0.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/pool2663a198285c2f.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/pool3663a198484da3.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/pool4663a19862c749.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/Plan663a1968acc20.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/pool1663a1987b8ae9.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Recomendado - Villamartin</property_name></property>
+ <property>
+  <id>2752</id>
+  <date>2024-06-26 15:51:27</date>
+  <ref>phd000026</ref>
+  <price>249900</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>apartment</type>
+  <town>Pilar de la Horadada</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>82</built>
+   <plot>60,51</plot>
+  </surface_area>
+  <desc>
+   <es>Representa la esencia del confort y el lujo en sus 34 apartamentos de dos habitaciones. Este complejo residencial, distribuido en tres bloques, est&#225; dise&#241;ado para maximizar el bienestar y la privacidad de sus residentes. Aqu&#237; se detalla la estructura y las amenidades de los apartamentos de dos habitaciones:
+Estructura y Cerramientos:
+
+Cimentaci&#243;n: Hormig&#243;n armado conforme a proyecto de ejecuci&#243;n.
+Cerramientos: Doble tabique cer&#225;mico con c&#225;mara de aire e aislamiento t&#233;rmico ac&#250;stico con paneles de poliestireno expandido.
+Fachada: Porcel&#225;nico de alta gama y monocapa blanco tratado antisuciedad.
+
+Acabados y Carpinter&#237;a:
+
+Interiores: Pavimento porcel&#225;nico de gran calidad. Puertas de paso interiores lacadas en blanco y armarios empotrados de primera calidad en dormitorios.
+Exteriores: Carpinter&#237;a de aluminio de alta gama y vidrios de seguridad t&#233;rmico-ac&#250;stico Climasun.
+
+Cocina y Electrodom&#233;sticos:
+
+Mobiliario: Armarios altos y bajos de dise&#241;o, encimera Silestone o similar en blanco brillante y madera.
+Equipamiento incluido: Frigor&#237;fico, placa de inducci&#243;n, campana extractora, horno y microondas en columna, lavavajillas y lavadora.
+
+Instalaciones:
+
+Fontaner&#237;a: Sanitarios suspendidos de cer&#225;mica de alta gama, muebles de lavabo suspendidos y espejo. Ducha efecto Rain con plato de ducha a ras de suelo y mampara de cristal.
+Climatizaci&#243;n: Suelo radiante el&#233;ctrico en ba&#241;os y preinstalaci&#243;n de aire acondicionado por conductos.
+
+Exteriores y Recreaci&#243;n:
+
+Terrazas y Jardines: Sol&#225;rium con aislamiento t&#233;rmico-ac&#250;stico y pavimentos antideslizantes. Cocina de verano en sol&#225;rium con encimera de granito y p&#233;rgola de obra.
+Urbanizaci&#243;n: Piscina y jacuzzi comunitarios, gimnasio, zona infantil y aparcamiento subterr&#225;neo con trastero.
+
+Ubicaci&#243;n: Pilar de la Horadada, AlicantePilar de la Horadada se destaca como un enclave privilegiado en la Costa Blanca, conocido por sus hermosas playas de arena fina y un clima id&#237;lico durante todo el a&#241;o. Este municipio de Alicante ofrece una mezcla perfecta de tradici&#243;n y modernidad, con acceso a numerosos servicios y comodidades, incluyendo tiendas, restaurantes y actividades de ocio. La cercan&#237;a a varios campos de golf y su excelente conectividad con las principales ciudades y aeropuertos de la regi&#243;n, hacen de Pilar de la Horadada el lugar ideal para disfrutar de la tranquilidad sin renunciar a las ventajas de una ciudad activa y din&#225;mica.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Garage</feature>
+   <feature>Jacuzi Tub</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663a07f2d67ae.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663a07ec090c6.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663a07ee86c6b.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663a07f0a1f34.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663a07f4eab16.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663a07f6e5bec.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8663a07f78b3ad.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/9663a07f8bb544.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/10663a07f9edd39.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/11663a07fa62248.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/12663a07fb87012.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/13663a07fcbde60.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/14663a07ff20f03.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/15663a08012702d.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16663a0803730a4.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/17663a08054c8d0.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/18663a08061fe77.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/19663a08067a74a.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/20663a0807a787c.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/21663a0808d767b.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/22663a08092c8a8.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-07__12.24.50663a080a62704.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1663a08abcee05.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663a08ad13d88.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663a08ad60ced.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663a08ae8956a.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663a08afc2dbb.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663a08b0e9046.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663a08b137786.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8663a08b26e26b.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/9663a08b3a5ab7.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/10663a08b4d0b77.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/11663a08b518a26.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/12663a08b660524.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/13663a08b78f96f.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/14663a08b8d173c.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/15663a08b92620d.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16663a08ba5556a.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/17663a08bb91841.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/18663a08bcbf88d.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/19663a08bdedb53.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1663a08be4b5e9.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663a08bf93b7e.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663a08c0bda9d.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663a08c2041cf.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663a08c25a758.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663a08c38d6e2.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663a08c4a9845.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Popular, Nuevo, apartamentos - Pilar de la Horadada</property_name></property>
+ <property>
+  <id>2751</id>
+  <date>2024-06-29 09:30:58</date>
+  <ref>mp0004</ref>
+  <price>590000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>villa</type>
+  <town>Mil Palmeras</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>3</baths>
+  <surface_area>
+   <built>139</built>
+   <plot>120</plot>
+  </surface_area>
+  <desc>
+   <es>VILLA INDEPENDIENTE DE DOS PLANTAS CON SOL&#193;RIUM Y PISCINA PRIVADA
+Villa independiente totalmente equipada y amueblada en parcela de 296m2.
+Esta bonita vivienda cuenta con 3 Dormitorios, 3 Ba&#241;os y Cocina independiente, con agradables vistas al mar y piscina privada. Zona de aparcamiento dentro de la parcela. Adem&#225;s, cuenta con la posibilidad de construir un cuarto dormitorio en la primera planta. La vivienda est&#225; orientada hacia el Oeste. Su amplio sol&#225;rium le permitir&#225; disfrutar de todas las horas de sol del d&#237;a. Ubicada a tan solo 1km del mar, la vivienda goza de todas las facilidades de acceso a servicios, zonas verdes y varios campos de Golf a corta distancia.
+&#160;
+PLANTA BAJA
+Sal&#243;n:
+&#8226; Persiana el&#233;ctrica y puerta corredera.
+Trastero:
+&#8226; Bajo hueco de escalera.
+Dormitorio 1:
+&#8226; Ventana y persiana el&#233;ctrica.
+&#8226; Armario empotrado con cajonera.
+Dormitorio 2 &#8211; Principal (con ba&#241;o en suite)
+&#8226; Ventana y persiana el&#233;ctrica.
+&#8226; Armario con cajonera.
+Ba&#241;o 1:
+&#8226; Lavabo con mueble y espejo.
+&#8226; Ducha con mampara.
+&#8226; WC Ba&#241;o 2 &#8211; en suite:
+&#8226; Ducha con mampara.
+&#8226; Lavabo con mueble y espejo.
+&#8226; WC Cocina:
+&#8226; Horno, Frigor&#237;fico, Lavavajillas, Placa Inducci&#243;n, Extractor.
+&#8226; Encimera de Silestone en forma de L.
+PLANTA PRIMERA Dormitorio 3 &#8211; (con ba&#241;o en suite)
+&#8226; Ventana y persiana el&#233;ctrica.
+&#8226; Armario con cajonera.
+Ba&#241;o 3 &#8211; en suite:
+&#8226; Ducha con mampara.
+&#8226; Lavabo con mueble y espejo.
+&#8226; WC Otros. &#8226; Video portero.
+&#8226; Placas solares.
+&#8226; Iluminaci&#243;n en toda la vivienda.
+&#8226; Aire acondicionado por conductos y sistema de ventilaci&#243;n.</es>
+  </desc>
+  <url />
+  <features>
+   <feature>Swimming Pool</feature>
+   <feature>Landscaping</feature>
+  </features>
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/26639f29db0cb1.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/16639f287318af.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/26639f2877730d.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/36639f288a904b.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/46639f289d3097.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/56639f28a1e0c4.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/66639f28b594b7.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/76639f28c900a1.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/86639f28db8c92.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/106639f28eeca78.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/126639f28f3c9e5.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/136639f29072328.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/146639f2919ffbb.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/156639f292cf4bc.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/166639f29318875.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/176639f2943cc7d.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/196639f2956ef91.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/206639f296a0bce.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/216639f297d2523.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/226639f29826e7e.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/236639f2995b6dc.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/96639f29bd77ba.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/186639f29c212c6.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/Planta_Baja_6639f3ea97628.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/Planta_Primera_6639f3ebcf11d.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/__2024-05-07__11.26.516639f3ec26117.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Recomendado, villas - Mil Palmeras</property_name></property>
+ <property>
+  <id>2750</id>
+  <date>2024-05-06 14:11:26</date>
+  <ref>gdlo0001</ref>
+  <price>110000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>commercial</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>0</beds>
+  <baths>0</baths>
+  <surface_area>
+   <built>55</built>
+  </surface_area>
+  <desc>
+   <es>Ubicado en el coraz&#243;n comercial de Guardamar Del Segura, cerca del conocido supermercado Mercadona, se ofrece este local comercial completamente renovado y listo para estrenar. Con una superficie total de 55m&#178;, este espacio cuenta con una orientaci&#243;n sur que aprovecha al m&#225;ximo la luz natural.
+El local incluye un aseo con lavabo, perfecto para clientes y empleados, adem&#225;s de un trastero pr&#225;ctico para almacenamiento extra y un patio que proporciona un espacio al aire libre privado. Situado cerca de un amplio aparcamiento, este local ofrece una accesibilidad excelente para clientes que buscan comodidad y proximidad a servicios esenciales.
+Ideal para una variedad de negocios, este local en una ubicaci&#243;n prime est&#225; listo para convertirse en el espacio ideal para tu pr&#243;ximo proyecto comercial. No pierdas la oportunidad de establecer tu negocio en una de las zonas m&#225;s transitadas de Guardamar Del Segura.</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/111116638e5035d5f3.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/2663514a270ecb.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/4663514a45cbb4.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/6663514a5e15cb.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/5663514a74ff57.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/3663514a8c21ca.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/1663514aa3caf8.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/8663514ad249bb.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/7663514abcd912.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Locales comerciales, Recomendado - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2749</id>
+  <date>2024-06-26 15:26:07</date>
+  <ref>GDL0002</ref>
+  <price>160000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>110</built>
+   <plot>80</plot>
+  </surface_area>
+  <desc>
+   <es>Muy bonito&#160; apartamento todo exterior en la zona de mercadona&#160; ,consta 3 dormitorios con armarios empotrados ,2 ba&#241;os uno de ellos swit ,salon -comedor,cocina independiente ,110 m2 de piso ,galeria para guardar las cosas de la casa como un espacio extra&#160; ,tiene para disfrutar&#160; muy grande terraza soleada .Orientacion oeste ,primera planta con ascensor ,se encuentra apartamento en un complejo Parque Luz con piscina comunitaria.Plaza de garaje en subsotano&#160; en mismo edificio y trastero entra en el precio total de la vivienda .
+Gasto de comunidad unos 613 al a&#241;o ,Suma (IBI) 240 euros al a&#241;o.
+Tiene una ubicaci&#243;n muy buena cerca de todos los servicios ya sean colegios, supermercado Mercadona,centro de salud, cafeter&#237;as supermercados, a tan solo 400 metros de la playa.
+Guardamar del Segura es una popular ciudad costera situada cerca de las famosas lagunas saladas, que purifican el aire y proporcionan a los habitantes de la zona unas condiciones de salud especialmente favorables. Guardamar se encuentra cerca de la capital de la provincia, Alicante, y el aeropuerto internacional est&#225; a s&#243;lo 30 minutos.
+El clima de la zona permite nadar, tomar el sol y practicar todo tipo de deportes acu&#225;ticos durante todo el a&#241;o. Le invitamos a una presentaci&#243;n de la propiedad. Tramitamos la obtenci&#243;n del N.I.E, apertura de cuentas bancarias, traducci&#243;n y acompa&#241;amiento a notar&#237;a. Hablamos espa&#241;ol, ruso, ucraniano,&#160;ingles,pocaco,frances.</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265866329dd896517.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265266329dd2ef192.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265366329dd3d41d5.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265466329dd4f410d.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265566329dd5cf9ed.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265666329dd6b6176.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266766329de1bf42c.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266566329ddfbaf80.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266466329ddec3dc9.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265766329dd7b3160.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266066329ddab547e.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265066329dd0c7bea.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_264966329dcf4714f.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_264866329dcdc1a7e.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265166329dd200187.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_265966329dd9982d4.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266166329ddb9866f.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266266329ddc9cf18.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266366329ddd9a57f.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_266666329de0b129f.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_005366329e30293af.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_005266329e324c313.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_005166329e3362e7e.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PHOTO-2024-05-02-12-42-556633e2c015471.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_00746633e2c115362.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_00726633e2c267f38.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_00736633e2c3a3d1a.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_00756633e3687cc2e.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Recomendado, Popular - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2747</id>
+  <date>2024-06-26 15:58:56</date>
+  <ref>gdy0001</ref>
+  <price>255000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>1</new_build>
+  <type>apartment</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>2</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>102</built>
+   <plot>73,21</plot>
+  </surface_area>
+  <desc>
+   <es>
+
+&#160;
+
+
+El residencial Amanecer De&#180;luxe Las Dunas est&#225; compuesto por un edificio de estilo moderno que contar&#225; con 31 viviendas de 2 dormitorios, 2 ba&#241;os y amplias terrazas desde 20m&#178;, parking subterr&#225;neo y trastero cerrado. El edificio estar&#225; compuesto por 9 alturas siendo las m&#225;s altas &#225;ticos con terraza principal y sol&#225;rium privado.
+Oferta especial de lanzamiento hasta el 31 de agosto de 2024 - apartamentos completamente amueblados incluyendo electrodom&#233;sticos, decoraci&#243;n, smart tv, menaje y aire acondicionado
+Un nuevo proyecto de 32 apartamentos de estilo contempor&#225;neo de 2 y 3 dormitorios situado en Guardamar del Segura (Alicante), una ubicaci&#243;n privilegiada frente al r&#237;o Segura, con proximidad al puerto deportivo y vistas abiertas al maravilloso paisaje de la Vega Baja. A tan s&#243;lo 30 minutos del aeropuerto de Alicante.&#160;
+El complejo est&#225; situado cerca del puerto deportivo de Guardamar del Segura que cuenta con bares y restaurantes. Tambi&#233;n est&#225; a poca distancia de la playa m&#225;s cercana y del centro de Guardamar del Segura, donde tiene acceso a una gran variedad de supermercados, bares, restaurantes, tiendas y los servicios necesarios, as&#237; como zonas de recreo.&#160;
+Este edificio de estilo moderno consta de 32 amplios apartamentos de 2 dormitorios y 2 ba&#241;os y hay un apartamento de 3 dormitorios y 2 ba&#241;os disponible que es un &#225;tico, todos los apartamentos cuentan con amplias terrazas de 23 m&#178;, e incluyen una plaza de aparcamiento subterr&#225;neo y trastero privado. El edificio tendr&#225; 9 plantas, las m&#225;s altas ser&#225;n &#225;ticos con terraza principal y solarium privado. El residencial cuenta con una bonita piscina comunitaria y zonas verdes con c&#233;sped natural que le permitir&#225;n disfrutar de su privilegiado entorno natural.&#160;
+La distribuci&#243;n interior consta de un vest&#237;bulo de entrada que conduce al amplio sal&#243;n de planta abierta y comedor con grandes ventanales en todo el espacio de vida que crean un mont&#243;n de luz natural y se abren a la terraza, una moderna cocina americana totalmente equipada con isla central, dormitorio principal con ba&#241;o en-suite, otro dormitorio doble y un ba&#241;o de invitados. La amplia terraza le permite disfrutar de zonas de relax mientras disfruta de las preciosas vistas abiertas. Los &#225;ticos disponen de una escalera exterior en la terraza que conduce al amplio solarium de la azotea para disfrutar del sol durante todo el d&#237;a.
+Todos los materiales utilizados son de primera calidad y est&#225;n bellamente acabados. Las viviendas incluyen ventanas de PVC con persianas el&#233;ctricas, ba&#241;os con suelo radiante el&#233;ctrico, armarios empotrados en todos los dormitorios, plaza de aparcamiento subterr&#225;neo y trastero. Adem&#225;s como oferta de lanzamiento se incluye en el precio de venta: electrodom&#233;sticos de cocina, instalaci&#243;n de aire acondicionado fr&#237;o/calor por conductos de la marca Johnson o similar, persianas enrollables, l&#225;mparas, decoraci&#243;n, muebles, iluminaci&#243;n, ropa de cama, toallas, Smart TV, cafetera, tostadora y menaje de cocina.... &#161;Perfecto para entrar a vivir directamente!
+Guardamar del Segura es famosa por sus playas de fina arena blanca y est&#225; situada en la desembocadura del r&#237;o Segura, al norte de La Mata y Torrevieja, en la Costa Blanca Sur. Guardamar del Segura cuenta con numerosos atractivos tur&#237;sticos, como once kil&#243;metros de playas, extensos pinares y espectaculares dunas. De norte a sur, las playas de Guardamar del Segura son Playa de los Tusales, Playa de los Viveros, Playa de la Babil&#242;nia, Playa Centro, Playa de la Roqueta, Playa del Moncayo, Playa del Campo y Playa de Les Ortigues.
+Guardamar del Segura cuenta con amplias instalaciones deportivas que incluyen una piscina ol&#237;mpica, campos de f&#250;tbol, baloncesto, tenis y front&#243;n. El puerto deportivo Marina del las Dunas es una maravillosa adici&#243;n, que ofrece cerca de 500 amarres con todos los servicios e instalaciones de un puerto deportivo de primera categor&#237;a. Para los amantes del golf, la cercana localidad de Rojales cuenta con el campo de golf La Marquesa. Hay muchos otros excelentes campos de golf en la zona, como La Finca Golf, Vistabella Golf, Villamart&#237;n, Real Club de Golf Campoamor, Las Ramblas y el galardonado Las Colinas Golf and Country Club.
+Guardamar del Segura es una ciudad bulliciosa que ofrece numerosos servicios con bares y restaurantes para todos los gustos y es muy popular entre los turistas, as&#237; como residentes permanentes. La animada Torrevieja con muchos mercados, tiendas, paseo mar&#237;timo y puerto deportivo est&#225; a s&#243;lo 15 minutos y 25 minutos de La Zenia con el famoso centro comercial "La Zenia Boulevard".
+&#160;
+
+
+
+</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_9_663103b380fd8.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_8_663103b50bd36.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_6_663103b56bbd7.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_7_663103b72fa72.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_1_663103b794086.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_3_663103b8f232c.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_4_663103b96705d.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/FOTOS_SHOW_HOUSE_AMANECER_IX_5_663103bac4e08.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/image66310495ab2ec.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PACK_DULY_AMANECER_DELUXE_-LAS_DUNAS-_9__1_663223c11d76b.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/PACK_DULY_AMANECER_DELUXE_-LAS_DUNAS-_5_663223c8b2251.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Apartamentos, Nuevo, Recomendado - Guardamar Del Segura</property_name></property>
+ <property>
+  <id>2746</id>
+  <date>2024-06-26 15:26:42</date>
+  <ref>GDES0001</ref>
+  <price>249000</price>
+  <currency>EUR</currency>
+  <price_freq>sale</price_freq>
+  <new_build>0</new_build>
+  <type>bungalow</type>
+  <town>Guardamar Del Segura</town>
+  <province>Alicante</province>
+  <country>Spain</country>
+  <location>
+   <latitude>0</latitude>
+   <longitude>0</longitude>
+  </location>
+  <location_detail>Costa Blanca</location_detail>
+  <beds>3</beds>
+  <baths>2</baths>
+  <surface_area>
+   <built>160</built>
+   <plot>80</plot>
+  </surface_area>
+  <desc>
+   <es>Estamos encantados de ofrecer espectacular bungalo todo exsterior en palnta alta con el solarium ,consta 3 dormitorios 2 de ellos con armarios empotrados ,2 ba&#241;os con plato de ducha y&#160; con suelo radiante ,salon comedor,muy moderna cocina&#160; americana,muy bonita terrasa soleada por la tarde y grande solarium de 88 m2 con espectaculares vistas al ciudad .Una terrasa jardin en planta baja.Bungalo esta ubicado en bonito complejo con atractivas zonas comunes gimnacio,sauna finlandesa y sauna turca,piscina comunitaria para invierno y para el verano con cesped natural y agradables zonas verdes.Plaza de aparcamiento en el teritorio del complejo.Vivienda esta ubicada en complejo cerrado .Gastos de comunidad 708 euros al a&#241;o ,IBI 318 euros al a&#241;o .&#160;
+&#160;
+Guardamar del Segura es una popular ciudad costera situada cerca de las famosas lagunas saladas, que purifican el aire y proporcionan a los habitantes de la zona unas condiciones de salud especialmente favorables. Guardamar se encuentra cerca de la capital de la provincia, Alicante, y el aeropuerto internacional est&#225; a s&#243;lo 30 minutos.
+El clima de la zona permite nadar, tomar el sol y practicar todo tipo de deportes acu&#225;ticos durante todo el a&#241;o. Le invitamos a una presentaci&#243;n de la propiedad. Tramitamos la obtenci&#243;n del N.I.E, apertura de cuentas bancarias, traducci&#243;n y acompa&#241;amiento a notar&#237;a. Hablamos espa&#241;ol, ruso, ucraniano,&#160;ingles,pocaco,frances,aleman.
+&#160;
+&#160;</es>
+  </desc>
+  <url />
+  <pool>0</pool>
+  <images>
+   <image id="1">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0045661eb892916b6.jpg</url>
+   </image>
+   <image id="2">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3013661d7a2795dc1.jpg</url>
+   </image>
+   <image id="3">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2983661d7a0c35248.jpg</url>
+   </image>
+   <image id="4">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2979661d7a07b2c71.jpg</url>
+   </image>
+   <image id="5">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2976661d7a03e1d74.jpg</url>
+   </image>
+   <image id="6">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2977661d7a04efa9f.jpg</url>
+   </image>
+   <image id="7">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2975661d7a022ef57.jpg</url>
+   </image>
+   <image id="8">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2978661d7a0609e89.jpg</url>
+   </image>
+   <image id="9">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2970661d79fc3ea3b.jpg</url>
+   </image>
+   <image id="10">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2972661d79fdd093c.jpg</url>
+   </image>
+   <image id="11">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2973661d79ff24be3.jpg</url>
+   </image>
+   <image id="12">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2974661d7a01291cd.jpg</url>
+   </image>
+   <image id="13">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2981661d7a09d86a1.jpg</url>
+   </image>
+   <image id="14">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2980661d7a08d110e.jpg</url>
+   </image>
+   <image id="15">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2982661d7a0b3504c.jpg</url>
+   </image>
+   <image id="16">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2984661d7a0d439fa.jpg</url>
+   </image>
+   <image id="17">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2985661d7a0e565a0.jpg</url>
+   </image>
+   <image id="18">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2986661d7a0f5833d.jpg</url>
+   </image>
+   <image id="19">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2987661d7a10643e1.jpg</url>
+   </image>
+   <image id="20">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2988661d7a1187af1.jpg</url>
+   </image>
+   <image id="21">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2989661d7a1293ef1.jpg</url>
+   </image>
+   <image id="22">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2990661d7a139c2f0.jpg</url>
+   </image>
+   <image id="23">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2991661d7a148e7d1.jpg</url>
+   </image>
+   <image id="24">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2992661d7a15a7910.jpg</url>
+   </image>
+   <image id="25">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2993661d7a16c053e.jpg</url>
+   </image>
+   <image id="26">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2994661d7a17e1db1.jpg</url>
+   </image>
+   <image id="27">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2996661d7a18f3438.jpg</url>
+   </image>
+   <image id="28">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_2998661d7a1a22f1f.jpg</url>
+   </image>
+   <image id="29">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3000661d7a1b4ac67.jpg</url>
+   </image>
+   <image id="30">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3001661d7a1c69fe2.jpg</url>
+   </image>
+   <image id="31">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3002661d7a1d6e7f9.jpg</url>
+   </image>
+   <image id="32">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3003661d7a1e9003c.jpg</url>
+   </image>
+   <image id="33">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3005661d7a1f843f8.jpg</url>
+   </image>
+   <image id="34">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3006661d7a2088155.jpg</url>
+   </image>
+   <image id="35">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3007661d7a218cb84.jpg</url>
+   </image>
+   <image id="36">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3008661d7a229025f.jpg</url>
+   </image>
+   <image id="37">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3009661d7a238e3d9.jpg</url>
+   </image>
+   <image id="38">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3010661d7a24a4eef.jpg</url>
+   </image>
+   <image id="39">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3011661d7a25aae86.jpg</url>
+   </image>
+   <image id="40">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3012661d7a26bd206.jpg</url>
+   </image>
+   <image id="41">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_3014661d7a28aeff9.jpg</url>
+   </image>
+   <image id="42">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0028661eb8845da04.jpg</url>
+   </image>
+   <image id="43">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0029661eb8864485b.jpg</url>
+   </image>
+   <image id="44">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0026661eb88757ddf.jpg</url>
+   </image>
+   <image id="45">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0027661eb8894fe65.jpg</url>
+   </image>
+   <image id="46">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0025661eb88a74df0.jpg</url>
+   </image>
+   <image id="47">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0037_1_661eb88b47185.jpg</url>
+   </image>
+   <image id="48">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0032_1_661eb88d2955a.jpg</url>
+   </image>
+   <image id="49">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0037661eb88e20445.jpg</url>
+   </image>
+   <image id="50">
+    <url>https://www.monolitproperties.com/media/com_iproperty/pictures/IMG_0031661eb88fd3329.jpg</url>
+   </image>
+  </images>
+ <tipo_de_venta>Venta</tipo_de_venta><property_name>Bungalow, Recomendado, Popular - Guardamar Del Segura</property_name></property>
+ </root>

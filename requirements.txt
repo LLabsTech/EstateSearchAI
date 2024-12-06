@@ -1,0 +1,27 @@
+# Core dependencies
+python-telegram-bot
+python-dotenv
+pandas
+pydantic
+
+# LangChain and related
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-anthropic
+
+# Vector stores
+chromadb
+faiss-cpu
+
+# LLMs and embeddings
+openai>=1.6.1
+anthropic
+sentence-transformers
+transformers
+torch>=2.2.0
+accelerate
+
+# Local LLM support
+llama-cpp-python
