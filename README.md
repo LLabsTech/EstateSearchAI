@@ -1,11 +1,24 @@
-# Real Estate Bot Setup Instructions
+# AI Real Estate Assistant
 
-## Prerequisites
+A Telegram bot powered by AI that helps users find real estate properties using natural language queries. The bot uses vector similarity search and large language models to provide relevant property recommendations.
+
+## Features
+
+- Natural language property search
+- Support for multiple LLM backends (GPT, Claude, Llama)
+- Vector similarity search using Chroma or FAISS
+- Persistent vector storage
+- Property matching based on multiple criteria
+- Detailed property information display
+
+## Requirements
+
 - Python 3.9 or higher
 - 8GB RAM minimum (16GB recommended for Llama models)
 - GPU optional but recommended for Llama models
+- Docker (optional, for development)
 
-## Installation Steps
+## Installation
 
 1. Create and activate virtual environment:
 ```bash
@@ -23,80 +36,103 @@ pip install -r requirements.txt
 cp .env.template .env
 ```
 
-4. Configure your .env file with appropriate values:
-- For OpenAI (GPT):
-  - Set `LLM_TYPE=gpt`
-  - Add your OpenAI API key to `OPENAI_API_KEY`
+## Configuration
 
-- For Claude:
-  - Set `LLM_TYPE=claude`
-  - Add your Anthropic API key to `ANTHROPIC_API_KEY`
+Edit `.env` file with your settings:
 
-- For Llama:
-  - Set `LLM_TYPE=llama`
-  - Download a Llama model (e.g., from Hugging Face)
-  - Set `LLAMA_MODEL_PATH` to your model path
+### LLM Configuration
 
-5. Choose vector store:
-- For Chroma (recommended for most cases):
-  ```
-  VECTOR_STORE_TYPE=chroma
-  CHROMA_PERSIST_DIR=./chroma_db
-  ```
+Choose one of the following LLM configurations:
 
-- For FAISS:
-  ```
-  VECTOR_STORE_TYPE=faiss
-  CHROMA_PERSIST_DIR=./faiss_db
-  ```
-
-6. Set up Telegram bot:
-- Create a new bot with @BotFather on Telegram
-- Add the bot token to `TELEGRAM_BOT_TOKEN` in .env
-
-## Running the Bot
-
-1. Start the bot:
-```bash
-python app.py
-```
-
-2. Test the bot in Telegram:
-- Send /start to begin
-- Send /help for usage instructions
-
-## Switching LLM Models
-
-You can switch between models by changing the `LLM_TYPE` in your .env file:
-
-### OpenAI GPT
-```
+1. OpenAI (GPT):
+```env
 LLM_TYPE=gpt
 OPENAI_API_KEY=your_key_here
 ```
 
-### Claude
-```
+2. Anthropic (Claude):
+```env
 LLM_TYPE=claude
 ANTHROPIC_API_KEY=your_key_here
 ```
 
-### Llama
-```
+3. Llama:
+```env
 LLM_TYPE=llama
 LLAMA_MODEL_PATH=/path/to/model.gguf
 ```
 
-## Vector Store Management
+### Vector Store Configuration
 
-### Chroma
-- Data is automatically persisted to `CHROMA_PERSIST_DIR`
-- No additional setup required
+Choose your vector store:
 
-### FAISS
-- Indexes are saved to `CHROMA_PERSIST_DIR`
-- Faster for larger datasets
-- Requires more memory
+1. ChromaDB (recommended for most cases):
+```env
+VECTOR_STORE_TYPE=chroma
+CHROMA_PERSIST_DIR=./chroma_db
+```
+
+2. FAISS:
+```env
+VECTOR_STORE_TYPE=faiss
+CHROMA_PERSIST_DIR=./faiss_db
+```
+
+### Telegram Bot Setup
+
+1. Create a new bot with @BotFather on Telegram
+2. Add the bot token to your .env:
+```env
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+```
+
+## Running the Bot
+
+### Normal Start
+```bash
+python app.py
+```
+
+### Force Vector Database Reload
+```bash
+python app.py --reload-vectors
+```
+
+## Usage
+
+1. Start conversation with bot using `/start`
+2. Use natural language to describe properties you're looking for
+3. Use `/help` to see example queries and tips
+
+Example queries:
+- "Show me 2-bedroom apartments in Guardamar under 150000 euros"
+- "I need a villa with a pool near the beach"
+- "Find properties with 3 bedrooms and 2 bathrooms in Torrevieja"
+
+## Development
+
+### Project Structure
+```
+real_estate_bot/
+├── requirements.txt
+├── .env
+├── data/
+│   └── properties.xml
+├── models/
+│   ├── __init__.py
+│   └── property.py
+├── vectorstore/
+│   ├── __init__.py
+│   └── base.py
+├── llm/
+│   ├── __init__.py
+│   └── base.py
+├── utils/
+│   ├── __init__.py
+│   └── xml_loader.py
+├── config.py
+└── app.py
+```
 
 ## Troubleshooting
 
@@ -117,14 +153,7 @@ LLAMA_MODEL_PATH=/path/to/model.gguf
 - Check disk space
 - Verify file permissions
 
-### Getting Help
-
-1. Check logs for detailed error messages
-2. Verify all environment variables are set correctly
-3. Ensure all dependencies are installed properly
-4. Check API key validity for OpenAI/Claude
-
-## Performance Optimization
+### Performance Optimization
 
 1. For faster responses:
 - Use FAISS instead of Chroma

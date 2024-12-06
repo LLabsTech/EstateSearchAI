@@ -12,13 +12,18 @@ class PropertyVectorStore(ABC):
         self.properties: dict[str, Property] = {}
 
     @abstractmethod
+    def needs_loading(self) -> bool:
+        """Check if the store needs to be loaded with data"""
+        pass
+
+    @abstractmethod
     def load_properties(self, properties: List[Property]) -> None:
         """Load properties into the vector store"""
         pass
 
     @abstractmethod
-    def search(self, query: str, top_k: int = 5) -> List[PropertyMatch]:
-        """Search for properties similar to query"""
+    def clear(self) -> None:
+        """Clear the vector store"""
         pass
 
     def _create_documents(self, properties: List[Property]) -> List[Document]:

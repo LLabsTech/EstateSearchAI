@@ -1,5 +1,6 @@
-from typing import List
 import os
+import shutil
+from typing import List
 from langchain.vectorstores import FAISS
 from models.property import Property, PropertyMatch
 from .base import PropertyVectorStore
@@ -10,14 +11,42 @@ class FAISSPropertyStore(PropertyVectorStore):
         self.persist_directory = persist_directory
         self.index_file = os.path.join(persist_directory, "index.faiss")
         self.store_file = os.path.join(persist_directory, "store.pkl")
+        self._initialize_store()
+
+    def _initialize_store(self):
+        """Initialize or load existing FAISS store"""
+        if os.path.exists(self.index_file) and os.path.exists(self.store_file):
+            self.vector_store = FAISS.load_local(
+                self.persist_directory,
+                self.embeddings
+            )
+
+    def needs_loading(self) -> bool:
+        """Check if the store needs to be loaded with data"""
+        return not (os.path.exists(self.index_file) and
+                   os.path.exists(self.store_file))
+
+    def clear(self) -> None:
+        """Clear the vector store"""
+        if self.vector_store:
+            self.vector_store = None
+        if self.persist_directory:
+            shutil.rmtree(self.persist_directory, ignore_errors=True)
+        os.makedirs(self.persist_directory, exist_ok=True)
 
     def load_properties(self, properties: List[Property]) -> None:
+        """Load properties into the vector store"""
+        # Clear existing data
+        self.clear()
+        
+        # Create and store new documents
         documents = self._create_documents(properties)
+        self.vector_store = FAISS.from_documents(
+            documents,
+            self.embeddings
+        )
         
-        # Create FAISS vector store
-        self.vector_store = FAISS.from_documents(documents, self.embeddings)
-        
-        # Save index
+        # Save to disk
         os.makedirs(self.persist_directory, exist_ok=True)
         self.vector_store.save_local(self.persist_directory)
 

@@ -1,6 +1,7 @@
 import os
 import asyncio
 import logging
+import argparse
 from telegram import Update
 from telegram.ext import (
     Application,
@@ -14,6 +15,10 @@ from config import config
 from utils.factories import create_llm_handler, create_vector_store
 from utils.xml_loader import load_properties_from_xml
 
+# Global handlers
+llm_handler = None
+vector_store = None
+
 # Setup logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -21,14 +26,21 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Initialize handlers
-llm_handler = create_llm_handler(config)
-vector_store = create_vector_store(config)
-
-# Load properties
-folder_path = os.path.dirname(__file__)
-properties = load_properties_from_xml(os.path.join(folder_path, "data", "properties.xml"))
-vector_store.load_properties(properties)
+def initialize_vector_store(force_reload: bool = False):
+    """Initialize vector store and load properties if needed"""
+    vector_store = create_vector_store(config)
+    folder_path = os.path.dirname(__file__)
+    xml_path = os.path.join(folder_path, "data", "properties.xml")
+    
+    if force_reload or vector_store.needs_loading():
+        logger.info("Loading properties from XML and updating vector store...")
+        properties = load_properties_from_xml(xml_path)
+        vector_store.load_properties(properties)
+        logger.info(f"Loaded {len(properties)} properties into vector store")
+    else:
+        logger.info("Using existing vector store")
+    
+    return vector_store
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle the /start command"""
@@ -50,19 +62,19 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     help_text = """
 🏠 *Property Search Help*
 
-You can ask me about properties using natural language. Include details like:
+You can ask me about properties using natural language\. Include details like:
 • Location preferences
 • Price range
 • Number of bedrooms/bathrooms
-• Property type (apartment, villa, etc.)
-• Special features (pool, garage, etc.)
+• Property type \(apartment, villa, etc\.\)
+• Special features \(pool, garage, etc\.\)
 • Views or proximity to amenities
 
 *Example Queries:*
-1. "Find me a 2-bedroom apartment in Guardamar under 200,000 euros"
-2. "Show villas with pools in Torrevieja"
-3. "I need a property near the beach with at least 3 bedrooms"
-4. "What properties are available in Alicante with a garage?"
+1\. "Find me a 2\-bedroom apartment in Guardamar under 200,000 euros"
+2\. "Show villas with pools in Torrevieja"
+3\. "I need a property near the beach with at least 3 bedrooms"
+4\. "What properties are available in Alicante with a garage?"
 
 *Tips:*
 • Be specific about your requirements
@@ -120,6 +132,18 @@ async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 def main() -> None:
     """Start the bot"""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Real Estate Telegram Bot')
+    parser.add_argument('--reload-vectors',
+                       action='store_true',
+                       help='Force reload of vector database from XML')
+    args = parser.parse_args()
+
+    # Initialize handlers
+    global llm_handler, vector_store
+    llm_handler = create_llm_handler(config)
+    vector_store = initialize_vector_store(force_reload=args.reload_vectors)
+
     # Initialize bot
     application = (
         Application.builder()
@@ -134,6 +158,7 @@ def main() -> None:
     application.add_error_handler(handle_error)
 
     # Start bot
+    logger.info("Starting bot...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
