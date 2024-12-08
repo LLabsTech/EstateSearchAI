@@ -59,16 +59,16 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle the /help command"""
-    help_text = r"""  # Added 'r' prefix for raw string
+    help_text = r"""
 🏠 *Property Search Help*
 
 You can ask me about properties using natural language\. Include details like:
-- Location preferences
-- Price range
-- Number of bedrooms/bathrooms
-- Property type \(apartment, villa, etc\.\)
-- Special features \(pool, garage, etc\.\)
-- Views or proximity to amenities
+\- Location preferences
+\- Price range
+\- Number of bedrooms/bathrooms
+\- Property type \(apartment, villa, etc\.\)
+\- Special features \(pool, garage, etc\.\)
+\- Views or proximity to amenities
 
 *Example Queries:*
 1\. "Find me a 2\-bedroom apartment in Guardamar under 200,000 euros"
@@ -77,10 +77,10 @@ You can ask me about properties using natural language\. Include details like:
 4\. "What properties are available in Alicante with a garage?"
 
 *Tips:*
-- Be specific about your requirements
-- You can mention multiple criteria
-- Ask for clarification if needed
-- Use /start to restart the conversation
+\- Be specific about your requirements
+\- You can mention multiple criteria
+\- Ask for clarification if needed
+\- Use /start to restart the conversation
     """
     await update.message.reply_markdown_v2(help_text)
 

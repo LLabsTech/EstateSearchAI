@@ -34,7 +34,7 @@ class Config(BaseModel):
 
     @classmethod
     def load(cls) -> 'Config':
-        return cls(
+        config = cls(
             telegram_token=os.getenv("TELEGRAM_BOT_TOKEN"),
             vector_store_type=VectorStoreType(os.getenv("VECTOR_STORE_TYPE", "chroma").lower()),
             chroma_persist_dir=os.getenv("CHROMA_PERSIST_DIR", "./chroma_db"),
@@ -44,5 +44,11 @@ class Config(BaseModel):
             llama_model_path=os.getenv("LLAMA_MODEL_PATH"),
             port=int(os.getenv("PORT", "5000"))
         )
+        
+        # Ensure vector store directory exists with proper permissions
+        os.makedirs(config.chroma_persist_dir, exist_ok=True)
+        os.chmod(config.chroma_persist_dir, 0o755)  # rwxr-xr-x permissions
+        
+        return config
 
 config = Config.load()
