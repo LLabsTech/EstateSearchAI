@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.vectorstores.base import VectorStore
+from langchain_core.vectorstores import VectorStore
 from langchain_core.documents import Document
 from models.property import Property, PropertyMatch
 
@@ -40,7 +40,7 @@ class PropertyVectorStore(ABC):
                 "baths": int(prop.baths) if prop.baths is not None else 0,
                 "surface_area": float(prop.surface_area_built) if prop.surface_area_built is not None else 0.0
             }
-            
+
             doc = Document(
                 page_content=prop.to_embedding_text(),
                 metadata=metadata

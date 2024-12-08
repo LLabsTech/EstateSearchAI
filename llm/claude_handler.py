@@ -1,6 +1,7 @@
 from typing import List
 from langchain_anthropic import ChatAnthropic
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage
+from langchain_core.messages import SystemMessage
 from models.property import PropertyMatch
 from .base import LLMHandler
 
