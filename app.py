@@ -2,15 +2,16 @@ import os
 import asyncio
 import logging
 import argparse
-from telegram import Update
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import (
     Application,
     CommandHandler,
     ContextTypes,
     MessageHandler,
+    CallbackQueryHandler,
     filters,
 )
-from typing import Optional
+from typing import Optional, Dict
 from config import config, StorageMode
 from utils.factories import create_llm_handler, create_vector_store
 from utils.xml_loader import load_properties_from_xml
@@ -19,6 +20,9 @@ from utils.xml_loader import load_properties_from_xml
 llm_handler = None
 vector_store = None
 effective_storage_mode = None
+
+# Store property descriptions for callback handling
+property_descriptions: Dict[str, str] = {}
 
 # Setup logging
 logging.basicConfig(
@@ -153,6 +157,35 @@ async def handle_error(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     if update.effective_message:
         await update.effective_message.reply_text(error_message)
 
+async def toggle_description(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Handle description toggle button press"""
+    query = update.callback_query
+    await query.answer()
+    
+    # Extract property ID and current state from callback data
+    prop_id, show_desc = query.data.split('_')[1:]  # Format: "desc_propId_state"
+    show_desc = show_desc == "1"
+    
+    # Get the property description
+    description = property_descriptions.get(prop_id, "Description not available")
+    
+    # Create property display text
+    base_text = query.message.text.split('\n\nDescription:')[0]  # Get text before description
+    if show_desc:
+        new_text = f"{base_text}\n\nDescription: {description}"
+        new_state = "0"
+        button_text = "Hide Description"
+    else:
+        new_text = base_text
+        new_state = "1"
+        button_text = "Show Description"
+    
+    # Update keyboard
+    keyboard = [[InlineKeyboardButton(button_text, callback_data=f"desc_{prop_id}_{new_state}")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    await query.message.edit_text(new_text, reply_markup=reply_markup)
+
 async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle user messages"""
     if not update.message or not update.message.text:
@@ -174,13 +207,80 @@ async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
             )
             return
 
-        # Generate response using LLM
+        # Generate high-level analysis using LLM
         response = await llm_handler.generate_response(user_query, matches)
         await update.message.reply_text(response)
         
-        # Send detailed information for top 3 matches
+        # Send detailed information for each match
         for match in matches[:3]:
-            await update.message.reply_text(match.property.to_display_text())
+            prop = match.property
+            
+            # Store description for callback handling
+            if hasattr(prop, 'desc') and isinstance(prop.desc, dict) and 'es' in prop.desc:
+                property_descriptions[str(prop.id)] = prop.desc['es']
+            else:
+                property_descriptions[str(prop.id)] = "Description not available"
+            
+            # Create display text
+            display_text = [
+                f"🏠 {prop.property_name}",
+                f"💰 Price: {prop.price} {prop.currency}{' per ' + prop.price_freq if prop.price_freq != 'sale' else ''}",
+                f"📍 Location: {prop.town}, {prop.province if prop.province else prop.country}",
+                f"🛏️ Bedrooms: {prop.beds if prop.beds else 'N/A'}",
+                f"🚿 Bathrooms: {prop.baths if prop.baths else 'N/A'}"
+            ]
+            
+            # Add area information
+            area_text = "📐 Area: "
+            if prop.surface_area_built:
+                area_text += f"{prop.surface_area_built}m² built"
+            if prop.surface_area_plot:
+                area_text += f", {prop.surface_area_plot}m² plot"
+            if not prop.surface_area_built and not prop.surface_area_plot:
+                area_text += "N/A"
+            display_text.append(area_text)
+            
+            # Add features if available
+            if prop.features:
+                features_list = ", ".join(prop.features)
+                display_text.append(f"✨ Features: {features_list}")
+            
+            # Add pool info
+            display_text.append(f"🏊‍♂️ Pool: {'Yes' if prop.pool else 'No'}")
+            
+            # Add reference number
+            display_text.append(f"🔍 Reference: {prop.ref}")
+            
+            # Join all lines
+            full_text = "\n".join(display_text)
+            
+            # Create keyboard with description toggle button
+            keyboard = [[InlineKeyboardButton(
+                "Show Description", 
+                callback_data=f"desc_{prop.id}_1"
+            )]]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+            
+            # Send property details
+            await update.message.reply_text(full_text, reply_markup=reply_markup)
+            
+            # Send images if available
+            if hasattr(prop, 'images'):
+                # Get first 10 image URLs
+                image_urls = []
+                for img in prop.images[:10]:  # Take first 10 images
+                    if isinstance(img, dict) and 'url' in img:
+                        if img['url'].startswith('http'):  # Only use valid URLs
+                            image_urls.append(img['url'])
+                
+                if image_urls:
+                    try:
+                        # Create media group
+                        media = [InputMediaPhoto(media=url) for url in image_urls]
+                        # Send as media group
+                        await update.message.reply_media_group(media=media)
+                    except Exception as e:
+                        logger.error(f"Error sending images: {str(e)}")
             
     except Exception as e:
         logger.error(f"Error processing message: {str(e)}")
@@ -203,16 +303,11 @@ def main() -> None:
                         help="Storage mode for vector database (auto-detect if not specified)")
     args = parser.parse_args()
 
-    # Determine storage mode once and store globally
-    storage_mode = determine_storage_mode(
-        StorageMode(args.storage_mode) if args.storage_mode else None
-    )
-
     # Initialize handlers
     llm_handler = create_llm_handler(config)
     vector_store = initialize_vector_store(
         force_reload=args.reload_vectors,
-        storage_mode=storage_mode
+        storage_mode=StorageMode(args.storage_mode) if args.storage_mode else None
     )
 
     # Initialize and run bot
@@ -220,6 +315,7 @@ def main() -> None:
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, process_message))
+    application.add_handler(CallbackQueryHandler(toggle_description, pattern="^desc_"))
     application.add_error_handler(handle_error)
 
     logger.info("Starting bot...")
