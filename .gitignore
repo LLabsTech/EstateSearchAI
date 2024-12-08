@@ -6,3 +6,8 @@ venv/
 env.bak/
 venv.bak/
 __pycache__/
+
+# DB Related
+*.faiss
+*.pkl
+.chroma

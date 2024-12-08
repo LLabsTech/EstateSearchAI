@@ -1,13 +1,13 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.vectorstores.base import VectorStore
 from langchain_core.documents import Document
 from models.property import Property, PropertyMatch
 
 class PropertyVectorStore(ABC):
     def __init__(self, embedding_model_name: str = "all-MiniLM-L6-v2"):
-        self.embeddings = SentenceTransformerEmbeddings(model_name=embedding_model_name)
+        self.embeddings = HuggingFaceEmbeddings(model_name=embedding_model_name)
         self.vector_store: Optional[VectorStore] = None
         self.properties: dict[str, Property] = {}
 

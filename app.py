@@ -10,14 +10,15 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-
-from config import config
+from typing import Optional
+from config import config, StorageMode
 from utils.factories import create_llm_handler, create_vector_store
 from utils.xml_loader import load_properties_from_xml
 
 # Global handlers
 llm_handler = None
 vector_store = None
+effective_storage_mode = None
 
 # Setup logging
 logging.basicConfig(
@@ -26,19 +27,77 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def initialize_vector_store(force_reload: bool = False):
+def determine_storage_mode(cmd_storage_mode: Optional[StorageMode] = None) -> StorageMode:
+    """
+    Determine storage mode using the following priority:
+    1. Command line argument (if provided)
+    2. Environment variable (from config)
+    3. Auto-detection
+    """
+    global effective_storage_mode
+
+    if effective_storage_mode is not None:
+        # Use already determined mode
+        return effective_storage_mode
+
+    # Command line argument has the highest priority
+    if cmd_storage_mode is not None:
+        effective_storage_mode = cmd_storage_mode
+        logger.info(f"Using storage mode from command line: {cmd_storage_mode.value}")
+        return effective_storage_mode
+
+    # Environment variable is the next priority
+    if config.storage_mode:
+        effective_storage_mode = config.storage_mode
+        logger.info(f"Using storage mode from environment: {config.storage_mode.value}")
+        return effective_storage_mode
+
+    # Auto-detection has the lowest priority
+    chroma_dir = os.path.abspath(config.chroma_persist_dir)
+    chroma_db_exists = os.path.exists(os.path.join(chroma_dir, '.chroma', 'chroma.sqlite3'))
+    effective_storage_mode = StorageMode.DISK if chroma_db_exists else StorageMode.MEMORY
+    logger.info(f"Auto-detected storage mode: {effective_storage_mode.value}")
+    return effective_storage_mode
+
+def initialize_vector_store(force_reload: bool = False, storage_mode: Optional[StorageMode] = None):
     """Initialize vector store and load properties if needed"""
-    vector_store = create_vector_store(config)
-    folder_path = os.path.dirname(__file__)
-    xml_path = os.path.join(folder_path, "data", "properties.xml")
+    # Determine effective storage mode
+    effective_mode = determine_storage_mode(storage_mode)
     
-    if force_reload or vector_store.needs_loading():
-        logger.info("Loading properties from XML and updating vector store...")
+    # Update config with final storage mode
+    config.storage_mode = effective_mode
+    
+    # Create vector store instance
+    vector_store = create_vector_store(config)
+    
+    if effective_mode == StorageMode.MEMORY:
+        # For memory mode, we always need to load vectors
+        logger.info("Memory mode: loading properties from XML...")
+        folder_path = os.path.dirname(__file__)
+        xml_path = os.path.join(folder_path, "data", "properties.xml")
         properties = load_properties_from_xml(xml_path)
         vector_store.load_properties(properties)
-        logger.info(f"Loaded {len(properties)} properties into vector store")
+        logger.info(f"Loaded {len(properties)} properties into memory store")
     else:
-        logger.info("Using existing vector store")
+        # For disk mode, only load if forced or needed
+        if force_reload:
+            logger.info("Force reload requested for persistent storage")
+            folder_path = os.path.dirname(__file__)
+            xml_path = os.path.join(folder_path, "data", "properties.xml")
+            properties = load_properties_from_xml(xml_path)
+            vector_store.load_properties(properties)
+            logger.info(f"Reloaded {len(properties)} properties into persistent storage")
+        elif vector_store.needs_loading():
+            logger.info("No existing vector data found, loading from XML...")
+            folder_path = os.path.dirname(__file__)
+            xml_path = os.path.join(folder_path, "data", "properties.xml")
+            properties = load_properties_from_xml(xml_path)
+            vector_store.load_properties(properties)
+            logger.info(f"Loaded {len(properties)} properties into persistent storage")
+        else:
+            # Initialize store without loading new data
+            vector_store._initialize_store()
+            logger.info("Using existing persistent vector store")
     
     return vector_store
 
@@ -132,32 +191,37 @@ async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 def main() -> None:
     """Start the bot"""
-    # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Real Estate Telegram Bot')
-    parser.add_argument('--reload-vectors',
-                       action='store_true',
-                       help='Force reload of vector database from XML')
+    global llm_handler, vector_store
+
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description="Real Estate Telegram Bot")
+    parser.add_argument("--reload-vectors",
+                        action="store_true",
+                        help="Force reload of vector database from XML")
+    parser.add_argument("--storage-mode",
+                        choices=["memory", "disk"],
+                        help="Storage mode for vector database (auto-detect if not specified)")
     args = parser.parse_args()
 
-    # Initialize handlers
-    global llm_handler, vector_store
-    llm_handler = create_llm_handler(config)
-    vector_store = initialize_vector_store(force_reload=args.reload_vectors)
-
-    # Initialize bot
-    application = (
-        Application.builder()
-        .token(config.telegram_token)
-        .build()
+    # Determine storage mode once and store globally
+    storage_mode = determine_storage_mode(
+        StorageMode(args.storage_mode) if args.storage_mode else None
     )
 
-    # Add handlers
+    # Initialize handlers
+    llm_handler = create_llm_handler(config)
+    vector_store = initialize_vector_store(
+        force_reload=args.reload_vectors,
+        storage_mode=storage_mode
+    )
+
+    # Initialize and run bot
+    application = Application.builder().token(config.telegram_token).build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, process_message))
     application.add_error_handler(handle_error)
 
-    # Start bot
     logger.info("Starting bot...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
