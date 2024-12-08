@@ -212,7 +212,7 @@ async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         await update.message.reply_text(response)
         
         # Send detailed information for each match
-        for match in matches[:3]:
+        for match in matches[:5]:
             prop = match.property
             
             # Store description for callback handling
