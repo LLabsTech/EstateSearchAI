@@ -1,6 +1,6 @@
-import shutil
 from typing import List
-from langchain.vectorstores import Chroma
+import shutil
+from langchain_community.vectorstores import Chroma
 from models.property import Property, PropertyMatch
 from .base import PropertyVectorStore
 

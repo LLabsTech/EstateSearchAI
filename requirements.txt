@@ -10,6 +10,9 @@ langchain-community
 langchain-core
 langchain-openai
 langchain-anthropic
+langchain-anthropic
+langchain-chroma
+langchain-huggingface
 
 # Vector stores
 chromadb
@@ -25,3 +28,4 @@ accelerate
 
 # Local LLM support
 llama-cpp-python
+llama-stack

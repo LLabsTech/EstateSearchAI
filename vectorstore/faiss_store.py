@@ -1,7 +1,7 @@
 import os
 import shutil
 from typing import List
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from models.property import Property, PropertyMatch
 from .base import PropertyVectorStore
 

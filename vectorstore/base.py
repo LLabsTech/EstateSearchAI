@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
-from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 from langchain.vectorstores.base import VectorStore
 from langchain_core.documents import Document
 from models.property import Property, PropertyMatch
@@ -30,16 +30,20 @@ class PropertyVectorStore(ABC):
         """Convert properties to LangChain documents"""
         documents = []
         for prop in properties:
+            # Filter out None values and convert numbers to appropriate types
+            metadata = {
+                "id": prop.id,
+                "price": float(prop.price),
+                "type": str(prop.type),
+                "town": str(prop.town),
+                "beds": int(prop.beds) if prop.beds is not None else 0,
+                "baths": int(prop.baths) if prop.baths is not None else 0,
+                "surface_area": float(prop.surface_area_built) if prop.surface_area_built is not None else 0.0
+            }
+            
             doc = Document(
                 page_content=prop.to_embedding_text(),
-                metadata={
-                    "id": prop.id,
-                    "price": prop.price,
-                    "type": prop.type,
-                    "town": prop.town,
-                    "beds": prop.beds,
-                    "baths": prop.baths
-                }
+                metadata=metadata
             )
             documents.append(doc)
             self.properties[prop.id] = prop
