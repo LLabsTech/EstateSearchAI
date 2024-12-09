@@ -24,6 +24,12 @@ class ChromaPropertyStore(PropertyVectorStore):
         self.storage_mode = storage_mode
         self.vector_store = None
 
+    def _clean_directory(self, directory: str) -> None:
+        """Safely remove and recreate a directory"""
+        if os.path.exists(directory):
+            shutil.rmtree(directory)
+        os.makedirs(directory, exist_ok=True)
+
     def _process_metadata(self, metadata: Dict[str, Any]) -> Dict[str, Any]:
         """Process metadata to ensure it's compatible with ChromaDB"""
         processed = {}
@@ -41,65 +47,66 @@ class ChromaPropertyStore(PropertyVectorStore):
                 processed[key] = str(value)
             elif isinstance(value, bool):
                 processed[key] = str(value).lower()
+            elif isinstance(value, dict):
+                # For nested dictionaries like description
+                if key == 'desc' and 'es' in value:
+                    processed[key] = value['es']
+                else:
+                    processed[key] = str(value)
             else:
                 processed[key] = str(value)
         
         return processed
 
     def _create_documents(self, properties: List[Property]) -> List[Document]:
-        """Create Langchain documents with complete property data in metadata"""
+        """Create Langchain documents with property data"""
         documents = []
         for prop in properties:
-            description = prop.to_embedding_text()
+            # Use the property's embedding text method
+            text = prop.to_embedding_text()
+            
+            # Process metadata to ensure compatibility
             metadata = self._process_metadata(prop.dict())
+            
+            # Create document
             doc = Document(
-                page_content=description,
+                page_content=text,
                 metadata=metadata
             )
             documents.append(doc)
+            
+            # Store reference to property
             self.properties[str(prop.id)] = prop
+            
         return documents
 
     def _initialize_store(self):
         """Initialize ChromaDB client and collection"""
-        try:
-            if self.storage_mode == StorageMode.DISK:
-                # Create directory if it doesn't exist
-                os.makedirs(self.chroma_data_directory, exist_ok=True)
-                
-                settings = chromadb.Settings(
-                    is_persistent=True,
-                    persist_directory=self.chroma_data_directory,
-                    anonymized_telemetry=False
-                )
-                
-                client = chromadb.PersistentClient(
-                    path=self.chroma_data_directory,
-                    settings=settings
-                )
-            else:
-                client = chromadb.Client()
-
-            self.vector_store = Chroma(
-                client=client,
-                collection_name="properties",
-                embedding_function=self.embeddings,
-                persist_directory=self.chroma_data_directory if self.storage_mode == StorageMode.DISK else None
+        if self.storage_mode == StorageMode.DISK:
+            os.makedirs(self.chroma_data_directory, exist_ok=True)
+            settings = chromadb.Settings(
+                is_persistent=True,
+                persist_directory=self.chroma_data_directory,
+                anonymized_telemetry=False
             )
+            client = chromadb.PersistentClient(
+                path=self.chroma_data_directory,
+                settings=settings
+            )
+        else:
+            client = chromadb.Client()
 
-        except Exception as e:
-            raise Exception(f"Failed to initialize ChromaDB: {str(e)}")
+        self.vector_store = Chroma(
+            client=client,
+            collection_name="properties",
+            embedding_function=self.embeddings,
+            persist_directory=self.chroma_data_directory if self.storage_mode == StorageMode.DISK else None
+        )
 
     def clear(self) -> None:
         """Clear the vector store"""
         if self.storage_mode == StorageMode.DISK and self.chroma_data_directory:
-            try:
-                if os.path.exists(self.chroma_data_directory):
-                    shutil.rmtree(self.chroma_data_directory)
-                os.makedirs(self.chroma_data_directory, exist_ok=True)
-            except Exception as e:
-                print(f"Error clearing storage: {e}")
-                raise
+            self._clean_directory(self.chroma_data_directory)
 
         self.vector_store = None
         self.properties = {}
@@ -122,23 +129,29 @@ class ChromaPropertyStore(PropertyVectorStore):
 
     def load_properties(self, properties: List[Property]) -> None:
         """Load properties into the vector store"""
+        if not properties:
+            raise ValueError("No properties provided to load")
+            
         try:
-            # Create documents with full property data in metadata
+            # Create documents and gather data for ChromaDB
             documents = self._create_documents(properties)
+            texts = [doc.page_content for doc in documents]
+            metadatas = [doc.metadata for doc in documents]
+            ids = [str(i) for i in range(len(documents))]
             
             # Initialize fresh store
             self._initialize_store()
             
-            # Create collection with documents
-            self.vector_store = Chroma.from_documents(
-                documents=documents,
-                embedding=self.embeddings,
-                client=self.vector_store._client,
-                collection_name="properties",
-                persist_directory=self.chroma_data_directory if self.storage_mode == StorageMode.DISK else None
-            )
-            
-            print(f"Successfully stored {len(properties)} properties in vector store")
+            # Add texts to ChromaDB
+            if texts:  # Only try to add if we have texts
+                self.vector_store.add_texts(
+                    texts=texts,
+                    metadatas=metadatas,
+                    ids=ids
+                )
+                print(f"Successfully stored {len(properties)} properties in vector store")
+            else:
+                raise ValueError("No valid texts to store in vector database")
                 
         except Exception as e:
             print(f"Detailed error during property loading: {str(e)}")
@@ -160,11 +173,15 @@ class ChromaPropertyStore(PropertyVectorStore):
             
             matches = []
             for doc, score in results:
-                # Convert stored metadata back to property structure
+                # Reconstruct property data from metadata
                 property_data = {}
                 for key, value in doc.metadata.items():
                     if key == 'features':
                         property_data[key] = value.split(', ') if value else []
+                    elif key == 'desc':
+                        property_data[key] = {'es': value} if value else {'es': ''}
+                    elif key == 'images':
+                        property_data[key] = [{'url': url.strip()} for url in value.split(', ')] if value else []
                     elif key in ['beds', 'baths']:
                         property_data[key] = int(value) if value else None
                     elif key in ['surface_area_built', 'surface_area_plot', 'price']:

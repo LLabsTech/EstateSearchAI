@@ -2,6 +2,7 @@ import os
 import asyncio
 import logging
 import argparse
+import shutil
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import (
     Application,
@@ -72,6 +73,13 @@ def initialize_vector_store(force_reload: bool = False, storage_mode: Optional[S
     config.storage_mode = effective_mode
     
     # Create vector store instance
+    # Delete chroma_db folder if force_reload is True
+    if force_reload and effective_mode == StorageMode.DISK:
+        chroma_dir = os.path.abspath(config.chroma_persist_dir)
+        if os.path.exists(chroma_dir):
+            logger.info("Force reload: removing existing vector store directory")
+            shutil.rmtree(chroma_dir)
+    
     vector_store = create_vector_store(config)
     
     if effective_mode == StorageMode.MEMORY:
@@ -155,7 +163,7 @@ async def handle_error(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         "Please try again or use /help for guidance."
     )
     if update.effective_message:
-        await update.effective_message.reply_text(error_message)
+        await update.message.reply_text(error_message)
 
 async def toggle_description(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle description toggle button press"""
@@ -168,6 +176,8 @@ async def toggle_description(update: Update, context: ContextTypes.DEFAULT_TYPE)
     
     # Get the property description
     description = property_descriptions.get(prop_id, "Description not available")
+    if isinstance(description, dict) and 'es' in description:
+        description = description['es']
     
     # Create property display text
     base_text = query.message.text.split('\n\nDescription:')[0]  # Get text before description
@@ -180,11 +190,15 @@ async def toggle_description(update: Update, context: ContextTypes.DEFAULT_TYPE)
         new_state = "1"
         button_text = "Show Description"
     
-    # Update keyboard
-    keyboard = [[InlineKeyboardButton(button_text, callback_data=f"desc_{prop_id}_{new_state}")]]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    
-    await query.message.edit_text(new_text, reply_markup=reply_markup)
+    try:
+        # Update keyboard
+        keyboard = [[InlineKeyboardButton(button_text, callback_data=f"desc_{prop_id}_{new_state}")]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        await query.message.edit_text(new_text[:4096], reply_markup=reply_markup) # parse_mode='MarkdownV2'
+    except Exception as e:
+        logger.error(f"Error updating message: {str(e)}")
+        await query.answer("Error updating message - text might be too long")
 
 async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle user messages"""
@@ -209,78 +223,37 @@ async def process_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
         # Generate high-level analysis using LLM
         response = await llm_handler.generate_response(user_query, matches)
-        await update.message.reply_text(response)
+        
+        # Convert ** to * for markdown and escape special characters
+        response = response.replace("**", "*")
+        special_chars = ['_', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']
+        for char in special_chars:
+            response = response.replace(char, f'\\{char}')
+            
+        await update.message.reply_text(response[:4096], parse_mode='MarkdownV2')
         
         # Send detailed information for each match
-        for match in matches[:5]:
+        for match in matches[:3]:
             prop = match.property
             
             # Store description for callback handling
-            if hasattr(prop, 'desc') and isinstance(prop.desc, dict) and 'es' in prop.desc:
+            if isinstance(prop.desc, dict) and 'es' in prop.desc:
                 property_descriptions[str(prop.id)] = prop.desc['es']
             else:
                 property_descriptions[str(prop.id)] = "Description not available"
             
-            # Create display text
-            display_text = [
-                f"🏠 {prop.property_name}",
-                f"💰 Price: {prop.price} {prop.currency}{' per ' + prop.price_freq if prop.price_freq != 'sale' else ''}",
-                f"📍 Location: {prop.town}, {prop.province if prop.province else prop.country}",
-                f"🛏️ Bedrooms: {prop.beds if prop.beds else 'N/A'}",
-                f"🚿 Bathrooms: {prop.baths if prop.baths else 'N/A'}"
-            ]
-            
-            # Add area information
-            area_text = "📐 Area: "
-            if prop.surface_area_built:
-                area_text += f"{prop.surface_area_built}m² built"
-            if prop.surface_area_plot:
-                area_text += f", {prop.surface_area_plot}m² plot"
-            if not prop.surface_area_built and not prop.surface_area_plot:
-                area_text += "N/A"
-            display_text.append(area_text)
-            
-            # Add features if available
-            if prop.features:
-                features_list = ", ".join(prop.features)
-                display_text.append(f"✨ Features: {features_list}")
-            
-            # Add pool info
-            display_text.append(f"🏊‍♂️ Pool: {'Yes' if prop.pool else 'No'}")
-            
-            # Add reference number
-            display_text.append(f"🔍 Reference: {prop.ref}")
-            
-            # Join all lines
-            full_text = "\n".join(display_text)
+            # Get display text using property's method
+            display_text = prop.to_display_text()
             
             # Create keyboard with description toggle button
             keyboard = [[InlineKeyboardButton(
-                "Show Description", 
+                "Show Description",
                 callback_data=f"desc_{prop.id}_1"
             )]]
             reply_markup = InlineKeyboardMarkup(keyboard)
             
             # Send property details
-            await update.message.reply_text(full_text, reply_markup=reply_markup)
-            
-            # Send images if available
-            if hasattr(prop, 'images'):
-                # Get first 10 image URLs
-                image_urls = []
-                for img in prop.images[:10]:  # Take first 10 images
-                    if isinstance(img, dict) and 'url' in img:
-                        if img['url'].startswith('http'):  # Only use valid URLs
-                            image_urls.append(img['url'])
-                
-                if image_urls:
-                    try:
-                        # Create media group
-                        media = [InputMediaPhoto(media=url) for url in image_urls]
-                        # Send as media group
-                        await update.message.reply_media_group(media=media)
-                    except Exception as e:
-                        logger.error(f"Error sending images: {str(e)}")
+            await update.message.reply_text(display_text, reply_markup=reply_markup, parse_mode='MarkdownV2')
             
     except Exception as e:
         logger.error(f"Error processing message: {str(e)}")
@@ -303,16 +276,11 @@ def main() -> None:
                         help="Storage mode for vector database (auto-detect if not specified)")
     args = parser.parse_args()
 
-    # Determine storage mode once and store globally
-    storage_mode = determine_storage_mode(
-        StorageMode(args.storage_mode) if args.storage_mode else None
-    )
-
     # Initialize handlers
     llm_handler = create_llm_handler(config)
     vector_store = initialize_vector_store(
         force_reload=args.reload_vectors,
-        storage_mode=storage_mode
+        storage_mode=StorageMode(args.storage_mode) if args.storage_mode else None
     )
 
     # Initialize and run bot
