@@ -303,11 +303,16 @@ def main() -> None:
                         help="Storage mode for vector database (auto-detect if not specified)")
     args = parser.parse_args()
 
+    # Determine storage mode once and store globally
+    storage_mode = determine_storage_mode(
+        StorageMode(args.storage_mode) if args.storage_mode else None
+    )
+
     # Initialize handlers
     llm_handler = create_llm_handler(config)
     vector_store = initialize_vector_store(
         force_reload=args.reload_vectors,
-        storage_mode=StorageMode(args.storage_mode) if args.storage_mode else None
+        storage_mode=storage_mode
     )
 
     # Initialize and run bot
